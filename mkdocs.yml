@@ -16,7 +16,7 @@ theme:
   text: Inter
   language: sv
   direction: ltr
-  logo: logo.png
+  logo: logo.svg
   favicon: favicon.png
 docs_dir: docs/
 extra:
