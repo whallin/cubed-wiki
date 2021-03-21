@@ -14,7 +14,7 @@ theme:
       primary: black
       accent: amber
   font:
-      text: Inter
+      text: Roboto
       code: IBM Plex Mono
   language: sv
   direction: ltr
