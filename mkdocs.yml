@@ -16,7 +16,7 @@ theme:
   font:
       text: Roboto
       code: JetBrains Mono
-  language: sv
+  language: en
   direction: ltr
   logo: images/logo.svg
   favicon: images/favicon.png
@@ -30,16 +30,16 @@ theme:
 docs_dir: docs/
 extra:
   alternate:
+    - name: English
+      link: /
+      lang: en
     - name: Svenska
       link: sv/
       lang: sv
-    - name: English
-      link: en/
-      lang: en
   homepage: https://cubed-wiki.williamhallin.com
 plugins:
   - search:
       lang:
-        - sv
         - en
+        - sv
       prebuild_index: true
