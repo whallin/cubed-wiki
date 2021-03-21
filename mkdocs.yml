@@ -29,17 +29,8 @@ theme:
       toc_depth: 3
 docs_dir: docs/
 extra:
-  alternate:
-    - name: English
-      link: /
-      lang: en
-    - name: Svenska
-      link: sv/
-      lang: sv
   homepage: https://cubed-wiki.williamhallin.com
 plugins:
   - search:
-      lang:
-        - en
-        - sv
+      lang: en
       prebuild_index: true
