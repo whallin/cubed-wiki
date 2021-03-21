@@ -14,8 +14,8 @@ theme:
       primary: black
       accent: amber
   font:
-      text: Inter
-      code: Roboto Mono
+      text: Open Sans
+      code: JetBrains Mono
   language: sv
   direction: ltr
   logo: images/logo.svg
