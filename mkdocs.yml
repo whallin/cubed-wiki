@@ -22,7 +22,7 @@ theme:
   favicon: images/favicon.png
   features:
     - navigation.instant
-    - navigation.sections
+    - navigation.tabs
   markdown_extensions:
   - toc:
       permalink: true
