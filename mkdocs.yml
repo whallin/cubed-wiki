@@ -31,10 +31,10 @@ docs_dir: docs/
 extra:
   alternate:
     - name: Svenska
-      link: <your-site>/sv/
+      link: sv/
       lang: sv
     - name: English
-      link: <your-site>/en/
+      link: en/
       lang: en
   homepage: https://cubed-wiki.williamhallin.com
 plugins:
