@@ -7,9 +7,14 @@ site_description: 'Cubed is a private Swedish Minecraft SMP server with an invit
 site_author: 'William Hallin'
 copyright: '© 2021 Cubed, trademark of Newgent Digital. All rights reserved.'
 nav:
-    - 'Home':
-        - 'Introduction': 'index.md'
+    - Home: 'index.md'
+    - 'User Guide':
         - 'Join Cubed': 'join-cubed.md'
+        - 'Commands': 'commands.md'
+    - 'Gameplay Guide':
+        - 'Economy': 'gameplay-economy.md'    
+        - 'Drugs': 'gameplay-drugs.md'
+        - 'Weapons': 'gameplay-weapons.md'   
 theme:
   name: 'material'
   palette:
