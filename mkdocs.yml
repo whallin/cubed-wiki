@@ -20,6 +20,9 @@ theme:
   direction: ltr
   logo: images/logo.svg
   favicon: images/favicon.png
+  markdown_extensions:
+  - toc:
+      permalink: true
   features:
     - navigation.instant
     - navigation.sections
