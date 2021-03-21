@@ -1,6 +1,6 @@
-site_name: Test docs
-site_description: 'A docs test'
-site_author: 'Michael Hausenblas'
+site_name: Cubed Wiki
+site_description: 'Cubed is a private Swedish Minecraft SMP server with an invite-only community. Show good interest and you might just receive an invite.'
+site_author: 'William Hallin'
 docs_dir: docs/
 repo_name: 'whallin/cubed-wiki'
 repo_url: 'https://github.com/whallin/cubed-wiki'
