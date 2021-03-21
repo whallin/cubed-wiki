@@ -25,3 +25,7 @@ theme:
 docs_dir: docs/
 extra:
   homepage: https://cubed-wiki.williamhallin.com
+plugins:
+  - search:
+      lang: sv
+      prebuild_index: true
