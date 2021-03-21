@@ -20,7 +20,7 @@ theme:
   favicon: favicon.png
   features:
     - navigation.instant
-    - navigation.expand
+    - navigation.sections
 docs_dir: docs/
 extra:
   homepage: https://cubed-wiki.williamhallin.com
