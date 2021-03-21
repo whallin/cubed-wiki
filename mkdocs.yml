@@ -1,11 +1,13 @@
+docs_dir: docs/
 site_name: Cubed Wiki
+site_url: 'https://cubed-wiki.williamhallin.com'
+repo_url: 'https://github.com/whallin/cubed-wiki'
+repo_name: 'whallin/cubed-wiki'
 site_description: 'Cubed is a private Swedish Minecraft SMP server with an invite-only community. Show good interest and you might just receive an invite.'
 site_author: 'William Hallin'
-docs_dir: docs/
-repo_name: 'whallin/cubed-wiki'
-repo_url: 'https://github.com/whallin/cubed-wiki'
-site_url: 'https://cubed-wiki.williamhallin.com'
+copyright: '© 2021 Cubed, trademark of Newgent Digital. All rights reserved.'
 nav:
-    - Home: index.md
+    - Home: 'index.md'
 theme:
   name: 'material'
+docs_dir: docs/
