@@ -14,8 +14,8 @@ theme:
       primary: black
       accent: amber
   font:
-      text: Open Sans
-      code: JetBrains Mono
+      text: Inter
+      code: IBM Plex Mono
   language: sv
   direction: ltr
   logo: images/logo.svg
