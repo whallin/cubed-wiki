@@ -1,0 +1,10 @@
+site_name: Test docs
+site_description: 'A docs test'
+site_author: 'Michael Hausenblas'
+docs_dir: docs/
+repo_name: 'whallin/cubed-wiki'
+repo_url: 'https://github.com/whallin/cubed-wiki'
+nav:
+    - Home: index.md
+theme:
+  name: 'material'
