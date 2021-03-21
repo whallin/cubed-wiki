@@ -20,12 +20,12 @@ theme:
   direction: ltr
   logo: images/logo.svg
   favicon: images/favicon.png
-  markdown_extensions:
-  - toc:
-      permalink: true
   features:
     - navigation.instant
     - navigation.sections
+  markdown_extensions:
+  - toc:
+      permalink: true
 docs_dir: docs/
 extra:
   homepage: https://cubed-wiki.williamhallin.com
