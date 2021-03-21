@@ -10,6 +10,14 @@ nav:
     - Home: 'index.md'
 theme:
   name: 'material'
+  palette:
+      primary: amber
+      accent: orange
+  text: Inter
+  language: sv
+  direction: ltr
+  logo: logo.png
+  favicon: favicon.png
 docs_dir: docs/
 extra:
-  generator: false
+  homepage: https://cubed-wiki.williamhallin.com
