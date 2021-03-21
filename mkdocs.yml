@@ -15,6 +15,7 @@ theme:
       accent: amber
   font:
       text: Inter
+      code: Roboto Mono
   language: sv
   direction: ltr
   logo: images/logo.svg
