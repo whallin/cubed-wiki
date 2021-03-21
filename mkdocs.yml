@@ -15,7 +15,7 @@ theme:
       accent: amber
   font:
       text: Roboto
-      code: IBM Plex Mono
+      code: JetBrains Mono
   language: sv
   direction: ltr
   logo: images/logo.svg
