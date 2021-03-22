@@ -11,12 +11,12 @@
 
 <!-- ABOUT -->
 ## cubed-wiki
-A knowledge base running MkDocs. Built for the private Swedish Minecraft SMP community Cubed. 
+A knowledge base running MkDocs. Built for the private Minecraft SMP community Cubed. 
 
-Are you interested in joining? Reach out to me personally and we might be able to figure something out.
+Interested in joining our community? Navigate to the wiki and learn more about becoming a part of our community.
 
 <!-- ACCESS -->
-## How to view the wiki?
+## Access the wiki
 You can find the Cubed wiki over at: https://cubed-wiki.williamhallin.com/
 
 <!-- CREDITS -->
