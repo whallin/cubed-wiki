@@ -10,11 +10,13 @@ nav:
     - 'Home': 'index.md'
     - 'User Guide':
         - 'Join Cubed': 'join-cubed.md'
-        - 'Commands': 'commands.md'
+        - 'Setup Proximity Chat': 'proximity-chat.md'
+        - 'In-game Commands': 'ingame-commands.md'
     - 'Gameplay Guide':
-        - 'Economy': 'gameplay-economy.md'    
+        - 'Economy': 'gameplay-economy.md'
         - 'Drugs': 'gameplay-drugs.md'
-        - 'Weapons': 'gameplay-weapons.md'   
+        - 'Weapons': 'gameplay-weapons.md'
+        - 'Gangs': 'gameplay-gangs.md'
 theme:
   name: 'material'
   palette:
