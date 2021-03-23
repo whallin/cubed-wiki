@@ -9,12 +9,14 @@ copyright: '© 2021 Cubed, trading as Newgent Digital. All rights reserved.'
 nav:
     - 'Home': 'index.md'
     - 'User Guide':
+        - 'Join Cubed': 'user-guide/join-cubed.md'
         - 'Setup Proximity Chat': 'user-guide/proximity-chat.md'
+        - 'In-game Commands': 'user-guide/ingame-commands.md'
     - 'Gameplay Guide':
-        - 'Economy': 'gameplay-economy.md'
-        - 'Drugs': 'gameplay-drugs.md'
-        - 'Weapons': 'gameplay-weapons.md'
-        - 'Gangs': 'gameplay-gangs.md'
+        - 'Economy': 'gameplay-guide/economy.md'
+        - 'Drugs': 'gameplay-guide/drugs.md'
+        - 'Weapons': 'gameplay-guide/weapons.md'
+        - 'Gangs': 'gameplay-guide/gangs.md'
 theme:
   name: 'material'
   palette:
