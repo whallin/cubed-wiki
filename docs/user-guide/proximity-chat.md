@@ -16,6 +16,7 @@ We apologize in advance if the screenshots in Swedish turns out to be confusing,
 5. Press "Configure" at the very top of the Mumble window, then "Settings..." [(View a screenshot)](https://cdn.discordapp.com/attachments/503829891566010368/823964516789387294/unknown.png)
 6. Click "Audio Input" and copy the settings seen in [this screenshot.](https://cdn.discordapp.com/attachments/503829891566010368/823964626446188604/unknown.png) 
     1. Modify "Maximum Distance"/"Högsta avstånd" to your preferred value. This is the amount in blocks you'll be able to hear people from in-game.
+    2. Do **not** change "Output Delay"/"Utgångsfördröjning", "Volume"/"Volym", or "Minimum Distance"/"Lägsta avstånd".
 7. Press "Apply" and go to "Plugins"/"Insticksmoduler" and copy the settings seen [here.](https://cdn.discordapp.com/attachments/503829891566010368/823964920160190534/unknown.png)
 8. Press "Apply" yet again, but this time restart your Mumble after you're done.
 9. Connect to the server and press right-shift to open [this](https://cdn.discordapp.com/attachments/503829891566010368/823964002437824522/2021-03-23_17.57.42.png) menu.
