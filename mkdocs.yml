@@ -9,11 +9,7 @@ copyright: '© 2021 Cubed, trading as Newgent Digital. All rights reserved.'
 nav:
     - 'Home': 'index.md'
     - 'User Guide':
-        - 'Join Cubed': 'join-cubed.md'
-        - 'Setup Proximity Chat': 'proximity-chat.md'
-        - 'In-game Commands': 'ingame-commands.md'
-    - 'user-guide':
-        - 'Setup Proximity Chat': 'proximity-chat.md'  
+        - 'Setup Proximity Chat': 'user-guide/proximity-chat.md'
     - 'Gameplay Guide':
         - 'Economy': 'gameplay-economy.md'
         - 'Drugs': 'gameplay-drugs.md'
