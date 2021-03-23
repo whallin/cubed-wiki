@@ -2,7 +2,7 @@ The process of enabling proximity chat is quite easy, and it takes no more than 
 
 To lower the amount of wordiness and steps part of this guide, we'll be assuming you have already installed [Lunar Client](https://www.lunarclient.com/download/) solely for the ease of use.
 
-**Note:** Lunar Client's implementation of "MumbleLink" will *not* work properly on systems running Linux distros. Please research into manually installing the mod for yourself in that case.
+**Note:** Lunar Client's implementation of "[Mumble Link](https://www.curseforge.com/minecraft/mc-mods/mumblelink)" will *not* work properly on systems running Linux distros. Please research into manually installing the mod for yourself in that case.
 
 We apologize in advance if the screenshots in Swedish turns out to be confusing, the steps will be the same no matter language.
 
