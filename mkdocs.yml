@@ -12,6 +12,8 @@ nav:
         - 'Join Cubed': 'join-cubed.md'
         - 'Setup Proximity Chat': 'proximity-chat.md'
         - 'In-game Commands': 'ingame-commands.md'
+    - 'user-guide':
+        - 'Setup Proximity Chat': 'proximity-chat.md'  
     - 'Gameplay Guide':
         - 'Economy': 'gameplay-economy.md'
         - 'Drugs': 'gameplay-drugs.md'
