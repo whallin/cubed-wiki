@@ -24,8 +24,6 @@ We apologize in advance if the screenshots in Swedish turns out to be confusing,
 
 Now, you've officially turned on Mumble Link/proximity chat. Verify that it works in-game by just entering a conversation or trying it out together with a friend of yours.
 
-If, for whatever reason, something is off and not working properly, please contact someone from the Cubed staff team for assistance on the issue. 
-
 ## Troubleshooting
 ### Can't hear players close to me
 - Make sure your "Minimum Distance"/"Lägsta avstånd" in "Audio Output" in your Mumble settings is set to "1.0 m"
@@ -33,3 +31,5 @@ If, for whatever reason, something is off and not working properly, please conta
 - Make sure you have Mumble Link properly enabled in-game.
 - Make sure you've turned on the setting at the very top located at "Plugins"/"Insticksmoduler".
 - Make sure your audio output device is the correct one.
+
+If, for whatever reason, something is off and not working properly, please contact someone from the Cubed staff team for assistance on the issue. 
