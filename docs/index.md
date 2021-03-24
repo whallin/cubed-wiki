@@ -1,3 +1,5 @@
+en-index
+
 ## What is Cubed?
 Cubed (or CubedSMP) is an invite-only Minecraft SMP community aiming to achieve unique and fun experiences for all it's current members.
 

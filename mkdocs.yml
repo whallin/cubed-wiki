@@ -41,10 +41,10 @@ extra:
   homepage: https://cubed-wiki.williamhallin.com
   alternate:
     - name: English
-      link: /
+      link: https://cubed-wiki.williamhallin.com/
       lang: en
     - name: Svenska
-      link: sv/
+      link: https://cubed-wiki.williamhallin.com/sv/
       lang: sv
 plugins:
   - search:
