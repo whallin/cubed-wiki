@@ -41,7 +41,7 @@ extra:
   homepage: https://cubed-wiki.williamhallin.com
   alternate:
     - name: English
-      link: en/
+      link: /
       lang: en
     - name: Svenska
       link: sv/
