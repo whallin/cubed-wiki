@@ -39,7 +39,6 @@ theme:
 docs_dir: docs/
 extra:
   homepage: https://cubed-wiki.williamhallin.com
-plugins:
   alternate:
     - name: English
       link: en/
@@ -47,6 +46,7 @@ plugins:
     - name: Svenska
       link: sv/
       lang: sv
+plugins:
   - search:
       lang:
         - en
