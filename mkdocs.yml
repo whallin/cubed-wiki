@@ -40,6 +40,15 @@ docs_dir: docs/
 extra:
   homepage: https://cubed-wiki.williamhallin.com
 plugins:
-  - search:
+  alternate:
+    - name: English
+      link: en/
       lang: en
+    - name: Svenska
+      link: sv/
+      lang: sv
+  - search:
+      lang:
+        - en
+        - sv
       prebuild_index: true
