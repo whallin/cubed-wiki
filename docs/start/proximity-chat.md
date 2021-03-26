@@ -9,7 +9,7 @@ Before we jump into this guide, we'll assume that you've downloaded and installe
 
 If you'd rather install the mod yourself that's used to link yourself to the VOIP service, please click [this link](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1272675-1-16-5-mumblelink-forge-smp-lan-mumble-ts3) and learn more about MumbleLink and how to configure it.
 
-!!! warning
+!!! warning inline end
     If you're a Linux user, the implementation of MumbleLink done by the Lunar Client developers will not work. You may either resort to installing the mod manually or utilizing a virtual machine to get a proper connection to the Mumble VOIP service.
 ### Setup Mumble
 1. Visit [https://mumble.info/downloads/](https://mumble.info/downloads/) and download the right version for your operating system.
