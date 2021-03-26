@@ -15,5 +15,5 @@ jobs:
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CUSTOM_DOMAIN: cubed-wiki.williamhallin.com
+          CUSTOM_DOMAIN: wiki.cubed-mc.com
           EXTRA_PACKAGES: build-base
