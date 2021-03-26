@@ -17,7 +17,7 @@ Interested in joining our community? Navigate to the wiki and learn more about b
 
 <!-- ACCESS -->
 ## Access the wiki
-You can find the Cubed wiki over at: https://cubed-wiki.williamhallin.com/
+You can find the Cubed wiki over at: https://wiki.cubed-mc.com
 
 <!-- CREDITS -->
 ## Credits
