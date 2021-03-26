@@ -1,10 +1,10 @@
-docs_dir: sv/docs/
+docs_dir: docs/
 site_name: Cubed Wiki
-site_url: 'https://cubed-wiki.williamhallin.com/sv/'
-repo_url: 'https://github.com/whallin/cubed-wiki'
-repo_name: 'whallin/cubed-wiki'
+site_url: 'https://wiki.cubed-mc.com'
+repo_url: 'https://github.com/cubed/cubed-wiki'
+repo_name: 'cubed/cubed-wiki'
 site_description: 'Cubed is a private Minecraft SMP server with an invite-only community. Show good interest and you might just receive an invite.'
-site_author: 'William Hallin'
+site_author: 'Cubed'
 copyright: '© 2021 Cubed, trading as Newgent Digital. All rights reserved.'
 nav:
     - 'Home': 'index.md'
@@ -25,7 +25,7 @@ theme:
   font:
       text: Roboto
       code: JetBrains Mono
-  language: sv
+  language: en
   direction: ltr
   logo: images/logo.svg
   favicon: images/favicon.png
@@ -37,17 +37,8 @@ theme:
       permalink: true
       toc_depth: 3
 extra:
-  homepage: https://cubed-wiki.williamhallin.com/sv/
-  alternate:
-    - name: English
-      link: https://cubed-wiki.williamhallin.com/en
-      lang: en
-    - name: Svenska
-      link: https://cubed-wiki.williamhallin.com/sv/
-      lang: sv
+  homepage: https://wiki.cubed-mc.com
 plugins:
   - search:
-      lang:
-        - en
-        - sv
+      lang: en
       prebuild_index: true
