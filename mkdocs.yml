@@ -5,7 +5,7 @@ repo_url: 'https://github.com/cubed/cubed-wiki'
 repo_name: 'cubed/cubed-wiki'
 site_description: 'Cubed is a private Minecraft SMP server with an invite-only community. Show good interest and you might just receive an invite.'
 site_author: 'Cubed'
-copyright: '© 2021 Cubed, trading as Newgent Digital. All rights reserved.'
+copyright: '© 2021 Cubed. All rights reserved.'
 nav:
     - 'Home': 'index.md'
     - 'Getting started':
