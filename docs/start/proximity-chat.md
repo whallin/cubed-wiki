@@ -26,11 +26,13 @@ You can access the Mumble settings by going to the configure tab and clicking "S
 We suggest you restart Mumble after applying all the settings found below.
 ##### Audio Input 
 [(Click me for visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/mumble-settings-step1-1.png)
+
 - Set "Echo Cancellation" to "Disabled" if you don't have any echoing in your environment.
 - Tweak the colored bar under "Transmission" to make sure your voice is only in the green field when speaking. Any other noises or audio should only be in the reds, not in the yellow field.
 - Copy the "Compression" settings to get the best possible audio quality. 
 ##### Audio Output 
 [(Click me for visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/mumble-settings-step1-2.png)
+
 - Make sure "Positional Audio" is checked.
 - Lower "Output Delay" to the lowest possible value without lag/stuttering in other's voices.
 - Un-check "while other users talk", "while you talk" and, "Attenuate other users while talking as Priority Speaker"
@@ -39,6 +41,7 @@ We suggest you restart Mumble after applying all the settings found below.
 - Set "Minimum Volume" to the lowest possible value.
 ##### Plugins 
 [(Click me for visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/mumble-settings-step1-3.png)
+
 - Make sure "Link to Game and Transmit Position" is enabled.
 - Make sure "Link vX.X.X" is enabled in the list of plugins.
 #### Add Mumble server to list
@@ -69,6 +72,7 @@ If none of the things mentioned below ends up working and fixing your issues, pl
 - Make sure you enabled the MumbleLink mod and that Mumble did link itself with the game.
 - Make sure your audio output has at least 2 channels. (contact for further assistance if unsure)
 
+## Outro
 We wish you the best of times on the Cubed network, and we hope that this guide was helpful for you.
 
 If you have any suggestions for this guide, feel free to drop them in our Discord. And if you have any questions or issues regarding this guide, please contact our staff team for assistance.
