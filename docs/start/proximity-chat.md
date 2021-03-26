@@ -11,13 +11,6 @@ If you'd rather install the mod yourself that's used to link yourself to the VOI
 
 !!! warning inline end
     If you're a Linux user, the implementation of MumbleLink done by the Lunar Client developers will not work. You may either resort to installing the mod manually or utilizing a virtual machine to get a proper connection to the Mumble VOIP service.
-    
-!!! info inline end
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
 
 ### Setup Mumble
 1. Visit [https://mumble.info/downloads/](https://mumble.info/downloads/) and download the right version for your operating system.

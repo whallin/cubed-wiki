@@ -44,3 +44,5 @@ plugins:
   - search:
       lang: en
       prebuild_index: true
+markdown_extensions:
+  - admonition
