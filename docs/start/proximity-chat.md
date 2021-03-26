@@ -24,18 +24,21 @@ If you'd rather install the mod yourself that's used to link yourself to the VOI
 You can access the Mumble settings by going to the configure tab and clicking "Settings...". [(click to view a screenshot)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/mumble-settings-step1.png)
 
 We suggest you restart Mumble after applying all the settings found below.
-##### Audio Input [(visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/mumble-settings-step1-1.png)
+##### Audio Input 
+[(Click me for visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/mumble-settings-step1-1.png)
 - Set "Echo Cancellation" to "Disabled" if you don't have any echoing in your environment.
 - Tweak the colored bar under "Transmission" to make sure your voice is only in the green field when speaking. Any other noises or audio should only be in the reds, not in the yellow field.
 - Copy the "Compression" settings to get the best possible audio quality. 
-##### Audio Output [(visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/mumble-settings-step1-2.png)
+##### Audio Output 
+[(Click me for visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/mumble-settings-step1-2.png)
 - Make sure "Positional Audio" is checked.
 - Lower "Output Delay" to the lowest possible value without lag/stuttering in other's voices.
 - Un-check "while other users talk", "while you talk" and, "Attenuate other users while talking as Priority Speaker"
 - Set "Minimum Distance" to the lowest possible value.
 - Change your "Maximum Distance" to the max distance you wanna hear people from. (1 meter = 1 in-game block)
 - Set "Minimum Volume" to the lowest possible value.
-##### Plugins [(visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/mumble-settings-step1-3.png)
+##### Plugins 
+[(Click me for visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/mumble-settings-step1-3.png)
 - Make sure "Link to Game and Transmit Position" is enabled.
 - Make sure "Link vX.X.X" is enabled in the list of plugins.
 #### Add Mumble server to list
@@ -55,10 +58,10 @@ This step will be assuming you are planning to use Lunar Client. Do your own res
 If things aren't working out properly for you, go ahead and try the following things to see if there's a possible fix to your issue.
 
 If none of the things mentioned below ends up working and fixing your issues, please contact the Cubed staff team for further assistance with your issue(s).
-### I can hear everyone from anywhere!
+### I can hear everyone from anywhere
 - Make sure you enabled the MumbleLink mod and that Mumble did link itself with the game.
 - Make sure your audio output has at least 2 channels. (contact for further assistance if unsure)
-### I can't hear anyone!
+### I can't hear anyone
 - Make sure your Mumble volume isn't muted.
 - Make sure your audio output device is selected to be the proper one.
 ### Voices are not moving around me
