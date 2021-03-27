@@ -1,7 +1,7 @@
 docs_dir: docs/
 site_name: Cubed Wiki
 site_url: 'https://wiki.cubed-mc.com'
-repo_url: 'https://github.com/cubed/cubed-wiki'
+repo_url: 'https://github.com/cubed-mc/cubed-wiki'
 repo_name: 'cubed/cubed-wiki'
 site_description: 'Cubed is a private Minecraft SMP server with an invite-only community. Show good interest and you might just receive an invite.'
 site_author: 'Cubed'
