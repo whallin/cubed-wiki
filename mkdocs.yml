@@ -19,6 +19,7 @@ nav:
         - 'Gangs': 'gameplay/gangs.md'
     - 'Reference':
         - 'In-game Commands': 'reference/ingame-commands.md'
+        - 'Discord Commands': 'reference/discord-commands.md'
 theme:
   name: 'material'
   palette:
