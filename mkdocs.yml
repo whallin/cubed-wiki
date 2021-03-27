@@ -20,6 +20,7 @@ nav:
     - 'Reference':
         - 'In-game Commands': 'reference/ingame-commands.md'
         - 'Discord Commands': 'reference/discord-commands.md'
+        - 'Discord Ticket System': 'reference/discord-tickets.md'
 theme:
   name: 'material'
   palette:
