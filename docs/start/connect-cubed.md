@@ -9,7 +9,3 @@ Connect using "play.cubed-mc.com" and the default Mumble port (64738). This will
 You can access our Discord server by going to [https://discord.cubed-mc.com/.](https://discord.cubed-mc.com/)
 ## Wiki
 You may visit [https://wiki.cubed-mc.com/](https://wiki.cubed-mc.com/) to access the entirety of our wiki.
-## Outro
-We wish you the best of times on the Cubed network, and we hope that this guide was helpful for you.
-
-If you have any suggestions for this guide, feel free to drop them in our Discord. And if you have any questions or issues regarding this guide, please contact our staff team for assistance.
