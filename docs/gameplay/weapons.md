@@ -16,14 +16,14 @@ As with any firearm, there's no such thing as "unlimited ammunition" unless you'
 - **Max rounds:** One (1)
 - **Price:** 38 Emerald(s)
 #### Carbine Rifle
-- **Description:** Normal carbine rifle mixed with grenade launcher.
+- **Description:** Normal carbine rifle mixed with a grenade launcher.
 - **Special traits:** Deals crits with a 10% chance.
 - **Required Ammo:** Firework Charge
 - **Max rounds:** Eight (8)
 - **Price:** 46 Emerald(s)
 #### Desert Eagle
 - **Description:** "Dual pistols."
-- **Special traits:** Shoot enemies in the back for bonus backstap damage.
+- **Special traits:** Shoot enemies in the back for bonus backstab damage.
 - **Required Ammo:** Gunpowder
 - **Max rounds:** Seven (7)
 - **Price:** 34 Emerald(s)
@@ -53,8 +53,8 @@ As with any firearm, there's no such thing as "unlimited ammunition" unless you'
 - **Price:** 36 Emerald(s)
 ### Explosives
 #### Trap Card
-- **Description:** A trap that can only be triggered by people except its owner.
-- **Explodes when:** Picked up, shot out of a dispenser, a chest containg this item is opened.
+- **Description:** A trap that people can only trigger except for its owner.
+- **Explodes when:** Picked up, shot out of a dispenser, a chest containing it is opened.
 - **Uses:** One (1)
 - **Price:** 26 Emerald(s)
 #### Remote Grenade
