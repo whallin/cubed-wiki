@@ -4,7 +4,7 @@ So that's why we made this small piece of documentation letting you know where y
 ## Minecraft
 Add "play.cubed-mc.com" to your server list and connect. Please make sure you're on the proper Minecraft version before connecting, as we only support one Minecraft version each season.
 ## Mumble
-Connect using "play.cubed-mc.com" and the default Mumble port (64738). This will let you onto our official Mumble server.
+Connect using "mumble.cubed-mc.com" and the default Mumble port (64738). This will let you onto our official Mumble server.
 ## Discord
 You can access our Discord server by going to [https://discord.cubed-mc.com/.](https://discord.cubed-mc.com/)
 ## Wiki

@@ -47,7 +47,7 @@ We suggest you restart Mumble after applying all the settings found below.
 #### Add Mumble server to list
 1. Click "Server" and then "Connect..."
 2. Press "Add New..." and input the following details:
-    1. **Address:** play.cubed-mc.com (leave port as default)
+    1. **Address:** mumble.cubed-mc.com (leave port as default)
     2. **Username:** Preferably your in-game username.
 3. Press "OK"
 #### Enabling Mumble support in-game
