@@ -13,13 +13,11 @@ nav:
         - 'Connect to Cubed': 'start/connect-cubed.md'
         - 'Setup Proximity Chat': 'start/proximity-chat.md'
     - 'Gameplay':
-        - 'Economy': 'gameplay/economy.md'
         - 'Drugs': 'gameplay/drugs.md'
         - 'Weapons': 'gameplay/weapons.md'
         - 'Gangs': 'gameplay/gangs.md'
     - 'Reference':
         - 'In-game Commands': 'reference/ingame-commands.md'
-        - 'Discord Commands': 'reference/discord-commands.md'
         - 'Discord Ticket System': 'reference/discord-tickets.md'
 theme:
   name: 'material'
