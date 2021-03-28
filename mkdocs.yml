@@ -15,7 +15,6 @@ nav:
     - 'Gameplay':
         - 'Drugs': 'gameplay/drugs.md'
         - 'Weapons': 'gameplay/weapons.md'
-        - 'Gangs': 'gameplay/gangs.md'
     - 'Reference':
         - 'In-game Commands': 'reference/ingame-commands.md'
         - 'Discord Ticket System': 'reference/discord-tickets.md'
