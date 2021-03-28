@@ -2,7 +2,7 @@ Cubed offers a custom drug system where you can buy, consume, and farm your own 
 
 We wrote some documentation on the system to learn more about the drugs, their side effects, and how to get them.
 ## Purchase and sell drugs
-Use ``/dr buy`` and ``/dr buy`` to sell and buy drugs. The sell price will change depending on quality and quantity.
+Use ``/dr buy`` and ``/dr buy`` to sell and buy drugs. The selling price will change depending on quality and quantity.
 ## Create drug farms
 Visit one of the available pharmacies to purchase your seeds to build your own drug farms at home. You'll plant the drugs just liked you'd plant normal plants.
 ## Consume drugs
@@ -19,7 +19,7 @@ Each of the drugs come with their own description and instruction on how to cons
 - **Legality:** Legal
 - **Buy Price:** $25/piece
 ### Cocaine
-- **Effects:** High speed boost
+- **Effects:** High-speed boost
 - **Side-effects:** Unknown
 - **Legality:** Illegal
 - **Buy Price:** $150/piece
