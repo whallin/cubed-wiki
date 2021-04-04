@@ -1,1 +1,0 @@
-servers/discord/about.md

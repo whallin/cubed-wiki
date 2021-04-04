@@ -10,16 +10,16 @@ nav:
     - 'Home': 'index.md'
     - 'About':
         - 'Overview': 'about/overview.md'
-        - 'Cubed Minecraft': 'about/minecraft-about.md'
+        - 'Cubed Minecraft': 'cubedsmp/minecraft-about.md'
         - 'Cubed Discord': 'about/discord-about.md'
         - 'Cubed Mumble': 'about/mumble-about.md'
     - 'Servers':
         - 'Overview': 'servers/overview.md'
         - 'Cubed Minecraft':
           - 'Apply for whitelist': 'resources/whitelist-request.md'
-          - 'Commands': 'servers/minecraft/commands.md'
+          - 'Commands': 'cubedsmp/commands.md'
           - 'Features': 'servers/minecraft/features.md'
-          - 'Frequently Asked Questions': 'servers/minecraft/faq.md'
+          - 'Frequently Asked Questions': 'cubedsmp/aq.md'
         - 'Cubed Discord':
           - 'Apply for whitelist': 'resources/whitelist-request.md'
           - 'Commands': 'servers/discord/commands.md'
@@ -29,13 +29,13 @@ nav:
           - 'Enable Proximity Chat': 'servers/mumble/proximity-chat.md'
           - 'Frequently Asked Questions': 'servers/mumble/faq.md'
     - 'CubedSMP':
-        - 'Overview': 'about/minecraft-about.md'
+        - 'Overview': 'cubedsmp/minecraft-about.md'
         - 'Apply for whitelist': 'resources/whitelist-request.md'
-        - 'Commands': 'servers/minecraft/commands.md'
+        - 'Commands': 'cubedsmp/commands.md'
         - 'Gameplay':
           - 'Drugs': 'cubedsmp/gameplay/drugs.md'
           - 'Weapons': 'cubedsmp/gameplay/weapons.md'
-        - 'Frequently Asked Questions': 'servers/minecraft/faq.md'
+        - 'Frequently Asked Questions': 'cubedsmp/faq.md'
     - 'Resources':
         - 'Whitelist Request': 'resources/whitelist-request.md'
         - 'Staff Applications': 'resources/apply-staff.md'
