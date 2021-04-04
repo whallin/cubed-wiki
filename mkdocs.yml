@@ -10,10 +10,10 @@ nav:
     - 'Home': 'index.md'
     - 'Servers':
         - 'Overview': 'servers/overview.md'
-          - 'Cubed Minecraft':
-            - 'What is Cubed Minecraft?': 'servers/minecraft/about.md'
-          - 'Cubed Discord':
-            - 'What is Cubed Discord?': 'servers/discord/about.md'
+        - 'Cubed Minecraft':
+          - 'What is Cubed Minecraft?': 'servers/minecraft/about.md'
+        - 'Cubed Discord':
+          - 'What is Cubed Discord?': 'servers/discord/about.md'
     - 'Cubed':
         - 'Get Invited': 'cubed/get-invite.md'
         - 'Connect to Cubed': 'cubed/connect-cubed.md'
