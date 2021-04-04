@@ -429,6 +429,20 @@ Displays player information.
     **Result:**
     
     Shows player information about the user "Notch".
+## /g help
+Lists all gang-related commands.
+### Syntax
+```
+/g help
+```
+!!! example
+    ```
+    /g help
+    ```
+    
+    **Result:**
+    
+    Lists all gang-related commands.
 ## /dr blockinfo
 Displays details about the block you are looking at.
 ### Syntax
