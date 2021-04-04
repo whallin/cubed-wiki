@@ -8,22 +8,40 @@ site_author: 'Cubed'
 copyright: '© 2021 Cubed. All rights reserved.'
 nav:
     - 'Home': 'index.md'
+    - 'About':
+        - 'Overview': 'about/overview.md'
+        - 'Cubed Minecraft': 'about/minecraft-about.md'
+        - 'Cubed Discord': 'about/discord-about.md'
+        - 'Cubed Mumble': 'about/mumble-about.md'
     - 'Servers':
         - 'Overview': 'servers/overview.md'
         - 'Cubed Minecraft':
-          - 'What is Cubed Minecraft?': 'servers/minecraft/about.md'
+          - 'Apply for whitelist': 'resources/whitelist-request.md'
+          - 'Commands': 'servers/minecraft/commands.md'
+          - 'Features': 'servers/minecraft/features.md'
+          - 'Frequently Asked Questions': 'servers/minecraft/faq.md'
         - 'Cubed Discord':
-          - 'What is Cubed Discord?': 'servers/discord/about.md'
-    - 'Cubed':
-        - 'Get Invited': 'cubed/get-invite.md'
-        - 'Connect to Cubed': 'cubed/connect-cubed.md'
-        - 'Setup Proximity Chat': 'cubed/proximity-chat.md'
-    - 'Gameplay':
-        - 'Drugs': 'gameplay/drugs.md'
-        - 'Weapons': 'gameplay/weapons.md'
+          - 'Apply for whitelist': 'resources/whitelist-request.md'
+          - 'Commands': 'servers/discord/commands.md'
+          - 'Ticket Categories': 'servers/discord/ticket-categories.md'
+          - 'Frequently Asked Questions': 'servers/discord/faq.md'
+        - 'Cubed Mumble':
+          - 'Enable Proximity Chat': 'servers/mumble/proximity-chat.md'
+          - 'Frequently Asked Questions': 'servers/mumble/faq.md'
+    - 'CubedSMP':
+        - 'Overview': 'about/minecraft-about.md'
+        - 'Apply for whitelist': 'resources/whitelist-request.md'
+        - 'Commands': 'servers/minecraft/commands.md'
+        - 'Gameplay':
+          - 'Drugs': 'cubedsmp/gameplay/drugs.md'
+          - 'Weapons': 'cubedsmp/gameplay/weapons.md'
+        - 'Frequently Asked Questions': 'servers/minecraft/faq.md'
     - 'Resources':
-        - 'In-game Commands': 'resources/ingame-commands.md'
-        - 'Discord Ticket System': 'resources/discord-tickets.md'
+        - 'Whitelist Request': 'resources/whitelist-request.md'
+        - 'Staff Applications': 'resources/apply-staff.md'
+        - 'Appeal a Punishment': 'resources/appeal-punishment.md'
+    - 'Credits': 'credits.md'
+    - 'Support': 'support.md'
 theme:
   name: 'material'
   palette:
