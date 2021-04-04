@@ -10,9 +10,9 @@ nav:
     - 'Home': 'index.md'
     - 'About':
         - 'Overview': 'about/overview.md'
-        - 'Cubed Minecraft': 'cubedsmp/minecraft-about.md'
-        - 'Cubed Discord': 'about/discord-about.md'
-        - 'Cubed Mumble': 'about/mumble-about.md'
+        - 'What is: Cubed Minecraft': 'cubedsmp/minecraft-about.md'
+        - 'What is: Cubed Discord': 'about/discord-about.md'
+        - 'What is: Cubed Mumble': 'about/mumble-about.md'
     - 'Servers':
         - 'Overview': 'servers/overview.md'
         - 'Cubed Minecraft':
@@ -29,7 +29,7 @@ nav:
           - 'Enable Proximity Chat': 'servers/mumble/proximity-chat.md'
           - 'Frequently Asked Questions': 'servers/mumble/faq.md'
     - 'CubedSMP':
-        - 'Overview': 'cubedsmp/minecraft-about.md'
+        - 'What is: Cubed Minecraft': 'cubedsmp/minecraft-about.md'
         - 'Apply for whitelist': 'resources/whitelist-request.md'
         - 'Commands': 'cubedsmp/commands.md'
         - 'Gameplay':
