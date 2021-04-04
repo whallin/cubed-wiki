@@ -1,4 +1,5 @@
 Do you need help from the Cubed staff team? Maybe you've got yourself stuck on something or have some other questions that would be suitable for our team? If that's the case, then there are a couple of ways to get in contact with us for assistance.
+
 - Join the [#create-a-ticket channel](https://discord.gg/rEzBArpASK) in our Discord server and make a ticket.
 - Send us an email at "[support@cubed-mc.com](mailto:support@cubed-mc.com)" and explain your inquiry in detail.
 - **(NOT RECOMMENDED)** Try and get in contact with one of our staff members directly for help with your case.
