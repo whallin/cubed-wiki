@@ -8,12 +8,6 @@ site_author: 'Cubed'
 copyright: '© 2021 Cubed. All rights reserved.'
 nav:
     - 'Home': 'index.md'
-    - 'Servers'
-       - 'Overview': 'servers/overview.md'
-       - 'Cubed Minecraft':
-       - 'What is Cubed Minecraft?': 'servers/minecraft/about.md'
-       - 'Cubed Discord':
-       - 'What is Cubed Discord?': 'servers/discord/about.md'
     - 'Servers':
         - 'Overview': 'servers/overview.md'
           - 'Cubed Minecraft':
