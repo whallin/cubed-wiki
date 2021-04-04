@@ -17,21 +17,21 @@ If you'd rather install the mod yourself that's used to link yourself to the VOI
 2. Run the installer and follow the setup wizard.
     1. "Murmur (server)" is not required. Only "Mumble (client)" is required.
 #### Configure Mumble
-1. Go to the main Mumble window. [(click to view a screenshot)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/configure-mumble-step1.png)
-2. Click "Configure" and complete the audio wizard. Follow each step carefully to get the best possible quality in the long run. [(click to view a screenshot)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/configure-mumble-step2.png)
-    1. When you've arrived at [this](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/configure-mumble-step2-1.png) step, do **not** check "Use headphones". If checked, it will ruin the realism of the positional audio.
+1. Go to the main Mumble window. [(click to view a screenshot)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/servers/mumble/proximity-chat/configure-mumble-step1.png)
+2. Click "Configure" and complete the audio wizard. Follow each step carefully to get the best possible quality in the long run. [(click to view a screenshot)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/servers/mumble/proximity-chat/configure-mumble-step2.png)
+    1. When you've arrived at [this](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/servers/mumble/proximity-chat/configure-mumble-step2-1.png) step, do **not** check "Use headphones". If checked, it will ruin the realism of the positional audio.
 #### Mumble Settings
-You can access the Mumble settings by going to the configure tab and clicking "Settings...". [(click to view a screenshot)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/mumble-settings-step1.png)
+You can access the Mumble settings by going to the configure tab and clicking "Settings...". [(click to view a screenshot)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/servers/mumble/proximity-chat/mumble-settings-step1.png)
 
 We suggest you restart Mumble after applying all the settings found below.
 ##### Audio Input 
-[(Click me for visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/mumble-settings-step1-1.png)
+[(Click me for visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/servers/mumble/proximity-chat/mumble-settings-step1-1.png)
 
 - Set "Echo Cancellation" to "Disabled" if you don't have any echoing in your environment.
 - Tweak the colored bar under "Transmission" to make sure your voice is only in the green field when speaking. Any other noises or audio should only be in the reds, not in the yellow field.
 - Copy the "Compression" settings to get the best possible audio quality. 
 ##### Audio Output 
-[(Click me for visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/mumble-settings-step1-2.png)
+[(Click me for visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/servers/mumble/proximity-chat/mumble-settings-step1-2.png)
 
 - Make sure "Positional Audio" is checked.
 - Lower "Output Delay" to the lowest possible value without lag/stuttering in other's voices.
@@ -40,7 +40,7 @@ We suggest you restart Mumble after applying all the settings found below.
 - Change your "Maximum Distance" to the max distance you wanna hear people from. (1 meter = 1 in-game block)
 - Set "Minimum Volume" to the lowest possible value.
 ##### Plugins 
-[(Click me for visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/start/proximity-chat/mumble-settings-step1-3.png)
+[(Click me for visual aid)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/wiki-media/servers/mumble/proximity-chat/mumble-settings-step1-3.png)
 
 - Make sure "Link to Game and Transmit Position" is enabled.
 - Make sure "Link vX.X.X" is enabled in the list of plugins.
