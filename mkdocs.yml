@@ -51,7 +51,7 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.cubed-mc.com/
     - icon: fontawesome/brands/github
-      link: https://github.com/cubed-mc
+      link: https://github.com/cubed-mc/
 plugins:
   - search:
       lang: en
