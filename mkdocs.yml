@@ -8,16 +8,16 @@ site_author: 'Cubed'
 copyright: '© 2021 Cubed. All rights reserved.'
 nav:
     - 'Home': 'index.md'
-    - 'Getting started':
-        - 'Get Invited': 'start/get-invite.md'
-        - 'Connect to Cubed': 'start/connect-cubed.md'
-        - 'Setup Proximity Chat': 'start/proximity-chat.md'
+    - 'Cubed':
+        - 'Get Invited': 'cubed/get-invite.md'
+        - 'Connect to Cubed': 'cubed/connect-cubed.md'
+        - 'Setup Proximity Chat': 'cubed/proximity-chat.md'
     - 'Gameplay':
         - 'Drugs': 'gameplay/drugs.md'
         - 'Weapons': 'gameplay/weapons.md'
-    - 'Reference':
-        - 'In-game Commands': 'reference/ingame-commands.md'
-        - 'Discord Ticket System': 'reference/discord-tickets.md'
+    - 'Resources':
+        - 'In-game Commands': 'resources/ingame-commands.md'
+        - 'Discord Ticket System': 'resources/discord-tickets.md'
 theme:
   name: 'material'
   palette:
