@@ -39,6 +39,13 @@ theme:
       toc_depth: 3
 extra:
   homepage: https://wiki.cubed-mc.com
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://cubed-mc.com/
+    - icon: fontawesome/brands/discord
+      link: https://discord.cubed-mc.com/
+    - icon: fontawesome/brands/github
+      link: https://github.com/cubed-mc
 plugins:
   - search:
       lang: en
