@@ -1,0 +1,1 @@
+servers/discord/ticket-categories.md
