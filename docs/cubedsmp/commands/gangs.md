@@ -16,7 +16,7 @@ Accept a fight challenge from the specified gang.
     
     **Result:**
     
-    Accepts the figh challenge request from the gang "Hells Angels".
+    Accepts the fight challenge request from the gang "Hells Angels".
 ## /fight challenge
 Challenge the specified gang for a fight.
 ### Syntax
@@ -24,7 +24,7 @@ Challenge the specified gang for a fight.
 /fight challenge <playeramount> <money> <gang>
 ```
 ### Parameters
-- **playeramount** - The total amount of players that can particpiate in the fight.
+- **playeramount** - The total amount of players that can participate in the fight.
 - **money** - Amount of money to bet on the fight.
 - **gang** - Define a gang name for your fight request.
 !!! example
@@ -50,7 +50,7 @@ Decline a fight challenge from the specified gang.
     
     **Result:**
     
-    Declines the figh challenge request from the gang "Hells Angels".
+    Declines the fight challenge request from the gang "Hells Angels".
 ## /fight join
 Join the fight your gang is taking part in.
 ### Syntax
@@ -94,7 +94,7 @@ Send an alliance request to the specified gang.
     
     **Result:**
     
-    Sends a alliance request to the gang "Hells Angels".
+    Sends an alliance request to the gang "Hells Angels".
 ## /g create
 Creates a new gang.
 ### Syntax
@@ -186,7 +186,7 @@ Lists all gang-related commands.
     
     Lists all gang-related commands.
 ## /g info
-Show information and statistics about specificed gang.
+Show information and statistics about the specified gang.
 ### Syntax
 ```
 /g info <gang>
@@ -234,7 +234,7 @@ Accepts the specified gang invite.
     
     Accepts the gang invite from the gang "Hells Angels".
 ## /g kick
-Kicks the player out of yout gang.
+Kicks the player out of your gang.
 ### Syntax
 ```
 /g kick <player>
@@ -310,7 +310,7 @@ Set relation with an ally to neutral.
     
     Makes your gang neutral with the gang "Hells Angels".
 ## /g playerinfo
-View information and statistics about the specififed player.
+View information and statistics about the specified player.
 ### Syntax
 ```
 /g playerinfo <player>
