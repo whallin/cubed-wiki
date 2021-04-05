@@ -9,7 +9,7 @@
 You can access the Mumble settings by going to the configure tab and clicking ["Settings..."](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/servers/mumble/proximity-chat/media/mumble-settings-step1.png)). We suggest you restart Mumble after applying all the settings found below.
 #### Audio Input 
 <figure>
-  <img src="https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/servers/mumble/proximity-chat/media/mumble-settings-step1-1.png" width="300" />
+  <img src="https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/servers/mumble/proximity-chat/media/mumble-settings-step1-1.png"/>
   <figcaption>Example of what "Audio Input" should look like</figcaption>
 </figure>
 
@@ -18,7 +18,7 @@ You can access the Mumble settings by going to the configure tab and clicking ["
 - Copy the "Compression" settings from the image above to get the best possible audio quality. 
 #### Audio Output 
 <figure>
-  <img src="https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/servers/mumble/proximity-chat/media/mumble-settings-step1-2.png" width="300" />
+  <img src="https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/servers/mumble/proximity-chat/media/mumble-settings-step1-2.png"/>
   <figcaption>Example of what "Audio Output" should look like</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ You can access the Mumble settings by going to the configure tab and clicking ["
 - Set "Minimum Volume" to the lowest possible value.
 #### Plugins
 <figure>
-  <img src="https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/servers/mumble/proximity-chat/media/mumble-settings-step1-3.png" width="300" />
+  <img src="https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/servers/mumble/proximity-chat/media/mumble-settings-step1-3.png"/>
   <figcaption>Example of what "Plugins" should look like</figcaption>
 </figure>
 
