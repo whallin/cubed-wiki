@@ -4,7 +4,6 @@ If you'd rather install the mod yourself used to link yourself to Mumble, click 
 
 ???+ warning
     **If you're a Linux user**, the implementation of MumbleLink done by Lunar Client will not enable and work properly. You may either resort to installing the mod manually or utilizing a virtual machine or another system to get a proper link to the Mumble VOIP service if you wish to use Lunar Client.
-
 #### Enabling Mumble support in-game
 This step will be assuming you are using Lunar Client. Do your own research if you are running a manual install of the MumbleLink mod.
 

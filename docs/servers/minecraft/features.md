@@ -1,5 +1,4 @@
 We try our very best to make as unique a Minecraft gameplay experience as possible for all our community members. Therefore we've listed everything we have implemented and developed for our Minecraft network so far to try and provide the best possible experience for our players.
-
 ## Gameplay Features
 - **Gangs**: Create a gang and combat with others to climb to the leaderboards' highest positions.
 - **Drugs**: Plant, farm, and consume drugs and other substances to give you a temporary boost with some slight side effects.
