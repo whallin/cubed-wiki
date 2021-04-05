@@ -26,8 +26,12 @@ nav:
           - 'Ticket Categories': 'servers/discord/ticket-categories.md'
           - 'Frequently Asked Questions': 'servers/discord/faq.md'
         - 'Cubed Mumble':
-          - 'Enable Proximity Chat': 'servers/mumble/proximity-chat.md'
           - 'Frequently Asked Questions': 'servers/mumble/faq.md'
+          - 'Proximity Chat':
+            - 'Overview': 'servers/mumble/proximity-chat/overview.md'
+            - 'Setup Mumble': 'servers/mumble/proximity-chat/setup-mumble.md'
+            - 'Enable Proximity In-game': 'servers/mumble/proximity-chat/enable-proximity-ingame.md'
+            - 'Troubleshooting': 'servers/mumble/proximity-chat/troubleshooting.md'
     - 'CubedSMP':
         - 'What is: Cubed Minecraft': 'cubedsmp/minecraft-about.md'
         - 'Apply for whitelist': 'resources/whitelist-request.md'

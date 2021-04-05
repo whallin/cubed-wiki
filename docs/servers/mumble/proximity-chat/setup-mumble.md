@@ -1,17 +1,3 @@
-We at Cubed support and encourage proximity chat usage while playing on our network as proximity chat is usually a huge boost to the gameplay experience factor for yourself and others. It really is fun.
-
-## What is Proximity Chat?
-Proximity chat is a feature that mimics how sound travels in real-life. The closer another player gets to you, the louder their voice gets. The opposite is also true, as the further away from the player moves, the softer the sound gets.
-
-## Instructions
-### Pre-setup
-Before we jump into this guide, we'll assume that you've downloaded and installed [Lunar Client](https://www.lunarclient.com/) onto your system. If you haven't, then please go ahead and do so now. Lunar Client will make it easier for you to connect with the VOIP service we'll use.
-
-If you'd rather install the mod yourself that's used to link yourself to the VOIP service, please click [this link](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1272675-1-16-5-mumblelink-forge-smp-lan-mumble-ts3) and learn more about MumbleLink and how to configure it.
-
-!!! warning
-    If you're a Linux user, the implementation of MumbleLink done by the Lunar Client developers will not work. You may either resort to installing the mod manually or utilizing a virtual machine to get a proper connection to the Mumble VOIP service.
-
 ### Setup Mumble
 1. Visit [https://mumble.info/downloads/](https://mumble.info/downloads/) and download the right version for your operating system.
 2. Run the installer and follow the setup wizard.
@@ -50,24 +36,3 @@ We suggest you restart Mumble after applying all the settings found below.
     1. **Address:** mumble.cubed-mc.com (leave port as default)
     2. **Username:** Preferably your in-game username.
 3. Press "OK"
-#### Enabling Mumble support in-game
-This step will be assuming you are planning to use Lunar Client. Do your own research if you are running a manual install of the MumbleLink mod.
-
-1. Start Minecraft and Mumble and connect to our servers.
-2. Press right-shift and select "Settings"
-3. Search for "Mumble Link" and make sure you enable it.
-4. Wait for "Minecraft linked." in the chat on the left inside of Mumble.
-## Troubleshooting
-If things aren't working out properly for you, go ahead and try the following things to see if there's a possible fix to your issue.
-
-If none of the things mentioned below ends up working and fixing your issues, please contact the Cubed staff team for further assistance with your issue(s).
-### I can hear everyone from anywhere
-- Make sure you enabled the MumbleLink mod and that Mumble did link itself with the game.
-- Make sure your audio output has at least 2 channels. (contact for further assistance if unsure)
-### I can't hear anyone
-- Make sure your Mumble volume isn't muted.
-- Make sure your audio output device is selected to be the proper one.
-### Voices are not moving around me
-- Make sure "Audio Output: Positional Audio" is enabled
-- Make sure you enabled the MumbleLink mod and that Mumble did link itself with the game.
-- Make sure your audio output has at least 2 channels. (contact for further assistance if unsure)
