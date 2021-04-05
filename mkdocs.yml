@@ -45,11 +45,12 @@ nav:
 theme:
   name: 'material'
   palette:
+      scheme: slate
       primary: black
-      accent: amber
+      accent: orange
   font:
-      text: Roboto
-      code: JetBrains Mono
+      text: Inter
+      code: Source Code Pro
   language: en
   direction: ltr
   logo: images/logo.svg
