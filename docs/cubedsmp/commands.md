@@ -429,6 +429,84 @@ Displays player information.
     **Result:**
     
     Shows player information about the user "Notch".
+## /fight accept
+Accept a fight challenge from the specified gang.
+### Syntax
+```
+/fight accept <gang>
+```
+### Parameters
+- **gang** - Define a gang name for the fight request.
+!!! example
+    ```
+    /fight accept Hells Angels
+    ```
+    
+    **Result:**
+    
+    Accepts the figh challenge request from the gang "Hells Angels".
+## /fight challenge
+Challenge the specified gang for a fight.
+### Syntax
+```
+/fight challenge <playeramount> <money> <gang>
+```
+### Parameters
+- **playeramount** - The total amount of players that can particpiate in the fight.
+- **money** - Amount of money to bet on the fight.
+- **gang** - Define a gang name for your fight request.
+!!! example
+    ```
+    /fight challenge 4 1000 Hells Angels
+    ```
+    
+    **Result:**
+    
+    Sends a 4v4 fight request with a $1000 bet to the gang "Hells Angels".
+## /fight decline
+Decline a fight challenge from the specified gang.
+### Syntax
+```
+/fight decline <gang>
+```
+### Parameters
+- **gang** - Define a gang name for the fight request.
+!!! example
+    ```
+    /fight decline Hells Angels
+    ```
+    
+    **Result:**
+    
+    Declines the figh challenge request from the gang "Hells Angels".
+## /fight join
+Join the fight your gang is taking part in.
+### Syntax
+```
+/fight join
+```
+!!! example
+    ```
+    /fight join
+    ```
+    
+    **Result:**
+    
+    Joins the fight your gang is taking part in.
+## /fight leave
+Leave the fight your gang is taking part in.
+### Syntax
+```
+/fight leave
+```
+!!! example
+    ```
+    /fight leave
+    ```
+    
+    **Result:**
+    
+    Leaves the fight your gang is taking part in.       
 ## /g help
 Lists all gang-related commands.
 ### Syntax
