@@ -1,13 +1,14 @@
-If things aren't working out properly for you, go ahead and try the following things to see if there's a possible fix to your issue.
-
-If none of the things mentioned below ends up working and fixing your issues, please contact the Cubed staff team for further assistance with your issue(s).
+If you're encountering issues with your Mumble setup, try and look below for any issues that seem close to what you're experiencing. Reading the checklists related to each of the issues might help you find a missed step or a miss-configuration.
+## Frequent issues
 ### I can hear everyone from anywhere
-- Make sure you enabled the MumbleLink mod and that Mumble did link itself with the game.
-- Make sure your audio output has at least 2 channels. (contact for further assistance if unsure)
+- Ensure that MumbleLink is enabled and that the link between the game and Mumble has been established.
+- Double-check that your audio output device has at least 2 audio channels to stream to. Contact our team if you're uncertain.
+- Check that your "Maximum Distance" value (found under "Audio Output" settings) isn't at max. 30-50m is the recommended threshold.
 ### I can't hear anyone
-- Make sure your Mumble volume isn't muted.
-- Make sure your audio output device is selected to be the proper one.
+- Make sure Mumble isn't muted and that your audio output device is properly plugged in.
+- Ensure the right audio interface is being used under the "Audio Output" settings in Mumble.
 ### Voices are not moving around me
-- Make sure "Audio Output: Positional Audio" is enabled
-- Make sure you enabled the MumbleLink mod and that Mumble did link itself with the game.
-- Make sure your audio output has at least 2 channels. (contact for further assistance if unsure)
+- Ensure that you've enabled "Positional Audio" found in the "Audio Output" settings.
+- Ensure that MumbleLink is enabled and that the link between the game and Mumble has been established.
+- Double-check that your audio output device has at least 2 audio channels to stream to. Contact our team if you're uncertain.
+- Check that you haven't accidentally checked/enabled "Headphones" under the "Audio Output" settings.
