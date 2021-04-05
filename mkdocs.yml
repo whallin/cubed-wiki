@@ -17,7 +17,7 @@ nav:
         - 'Overview': 'servers/overview.md'
         - 'Cubed Minecraft':
           - 'Apply for whitelist': 'resources/whitelist-request.md'
-          - 'Commands': 'cubedsmp/commands.md'
+          - 'Commands': 'cubedsmp/commands/essentials.md'
           - 'Features': 'servers/minecraft/features.md'
           - 'Frequently Asked Questions': 'cubedsmp/aq.md'
         - 'Cubed Discord':
@@ -31,7 +31,11 @@ nav:
     - 'CubedSMP':
         - 'What is: Cubed Minecraft': 'cubedsmp/minecraft-about.md'
         - 'Apply for whitelist': 'resources/whitelist-request.md'
-        - 'Commands': 'cubedsmp/commands.md'
+        - 'Commands':
+          - 'Essentials': 'cubedsmp/commands/essentials.md'
+          - 'Gangs': 'cubedsmp/commands/gangs.md'
+          - 'Drugs': 'cubedsmp/commands/drugs.md'
+          - 'Weapons': 'cubedsmp/commands/weapons.md'
         - 'Gameplay':
           - 'Drugs': 'cubedsmp/gameplay/drugs.md'
           - 'Weapons': 'cubedsmp/gameplay/weapons.md'
