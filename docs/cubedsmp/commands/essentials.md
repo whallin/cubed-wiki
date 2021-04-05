@@ -9,7 +9,7 @@ States the current balance of a player.
 ```
 ### Parameters
 - **player** - (optional) Check the balance of players other than you.
-!!! example
+???+ example
     ```
     /balance Notch
     ```
@@ -26,7 +26,7 @@ Lists players by top balances.
 ```
 ### Parameters
 - **page** - (optional) Lists top balances by page number.
-!!! example
+???+ example
     ```
     /balancetop 1
     ```
@@ -44,7 +44,7 @@ Clear all items in your inventory.
 - **item** - (optional) Define specific items to remove.
 - **item:data** - (optional) Give a specific item ID to remove.
 - **amount** - (optional) If specific item is specificed, how many of those items should be removed.
-!!! example
+???+ example
     ```
     /clearinventory
     ```
@@ -58,7 +58,7 @@ Toggles whether you are prompted to confirm inventory clears.
 ```
 /clearinventoryconfirmtoggle
 ```
-!!! example
+???+ example
     ```
     /clearinventoryconfirmtoggle
     ```
@@ -74,7 +74,7 @@ Removes a home.
 ```
 ### Parameters
 - **name** - Define a home name to remove.
-!!! example
+???+ example
     ```
     /delhome balcony
     ```
@@ -88,7 +88,7 @@ Opens a portable disposal menu.
 ```
 /disposal
 ```
-!!! example
+???+ example
     ```
     /disposal
     ```
@@ -104,7 +104,7 @@ Look at a player's exp.
 ```
 ### Parameters
 - **playername** - Define a player name to inspect.
-!!! example
+???+ example
     ```
     /exp show Notch
     ```
@@ -120,7 +120,7 @@ Sets your currently held item as your helmet.
 ```
 ### Parameters
 - **remove** - (optional) Add "remove" to remove current hat.
-!!! example
+???+ example
     ```
     /hat
     ```
@@ -136,7 +136,7 @@ Message online staff members.
 ```
 ### Parameters
 - **message** - The message you want to send in.
-!!! example
+???+ example
     ```
     /helpop I'm stuck in this block.
     ```
@@ -152,7 +152,7 @@ Teleport to your home.
 ```
 ### Parameters
 - **name** - Define a home name to remove.
-!!! example
+???+ example
     ```
     /home shop
     ```
@@ -166,7 +166,7 @@ List all online players.
 ```
 /list
 ```
-!!! example
+???+ example
     ```
     /list
     ```
@@ -183,7 +183,7 @@ Sends a private message to the specified player.
 ### Parameters
 - **name** - Define a player name to contact.
 - **message** - Your message you want to send.
-!!! example
+???+ example
     ```
     /msg Notch Hey!
     ```
@@ -200,7 +200,7 @@ Blocks receiving all private messages.
 ### Parameters
 - **player** - (optional) Define a player name to block.
 - **on/off** - (optional) Specify a specific block status.
-!!! example
+???+ example
     ```
     /msgtoggle
     ```
@@ -217,7 +217,7 @@ Pays another player from your balance.
 ### Parameters
 - **player** - Define a player name to pay.
 - **amount** - Specify a specific money amount to pay.
-!!! example
+???+ example
     ```
     /pay Notch 1000
     ```
@@ -231,7 +231,7 @@ Toggles whether you are prompted to confirm payments.
 ```
 /payconfirmtoggle
 ```
-!!! example
+???+ example
     ```
     /payconfirmtoggle
     ```
@@ -245,7 +245,7 @@ Toggles whether you are accepting payments.
 ```
 /paytoggle
 ```
-!!! example
+???+ example
     ```
     /paytoggle
     ```
@@ -261,7 +261,7 @@ Displays the username of a user based on nick.
 ```
 ### Parameters
 - **nickname** - The nickname of an online player.
-!!! example
+???+ example
     ```
     /nickname Real_Notch
     ```
@@ -278,7 +278,7 @@ Views the server rules.
 ### Parameters
 - **chapter** - (optional) Pick a specific chapter of the server rules.
 - **page** - (optional) Pick a specific page of the server rules.
-!!! example
+???+ example
     ```
     /rules
     ```
@@ -294,7 +294,7 @@ Shows the last logout time of a player.
 ```
 ### Parameters
 - **playername** - Define a username for your lookup.
-!!! example
+???+ example
     ```
     /seen Notch
     ```
@@ -310,7 +310,7 @@ Set home to your current location.
 ```
 ### Parameters
 - **name** - Define a name for your home location.
-!!! example
+???+ example
     ```
     /sethome Farm
     ```
@@ -326,7 +326,7 @@ Request to teleport to the specified player.
 ```
 ### Parameters
 - **player** - Define a username for your teleport request.
-!!! example
+???+ example
     ```
     /tpa Notch
     ```
@@ -340,7 +340,7 @@ Requests all players online to teleport to you.
 ```
 /tpaall
 ```
-!!! example
+???+ example
     ```
     /tpaall
     ```
@@ -356,7 +356,7 @@ Cancel all outstanding teleport requests.
 ```
 ### Parameters
 - **player** - (optional) Define a username to cancel your teleport request to.
-!!! example
+???+ example
     ```
     /tpacancel Notch
     ```
@@ -372,7 +372,7 @@ Accepts a teleport request.
 ```
 ### Parameters
 - **player** - (optional) Define a username to accept a teleport request from.
-!!! example
+???+ example
     ```
     /tpaccept Notch
     ```
@@ -388,7 +388,7 @@ Request that the specified player teleport to you.
 ```
 ### Parameters
 - **name** - Define a username for your teleport request.
-!!! example
+???+ example
     ```
     /tpahere Notch
     ```
@@ -404,7 +404,7 @@ Displays player information.
 ```
 ### Parameters
 - **nickname/playername** - Define a username or nickname for your lookup.
-!!! example
+???+ example
     ```
     /whois Notch
     ```

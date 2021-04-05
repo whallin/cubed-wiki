@@ -7,7 +7,7 @@ Displays details about the block you are looking at.
 ```
 /dr blockinfo
 ```
-!!! example
+???+ example
     ```
     /dr blockinfo
     ```
@@ -21,7 +21,7 @@ List and manage all owned boosters.
 ```
 /dr boosters
 ```
-!!! example
+???+ example
     ```
     /dr boosters
     ```
@@ -37,7 +37,7 @@ Used to open the GUI to buy drugs and related goods.
 ```
 ### Parameters
 - **player** - Define a username or nickname for your lookup.
-!!! example
+???+ example
     ```
     /dr buy Notch
     ```
@@ -51,7 +51,7 @@ Shows a list of available drug-related commands you have permission to.
 ```
 /dr help
 ```
-!!! example
+???+ example
     ```
     /dr help
     ```
@@ -65,7 +65,7 @@ Displays a list of all drugs, including details.
 ```
 /dr list
 ```
-!!! example
+???+ example
     ```
     /dr list
     ```
@@ -81,7 +81,7 @@ Used to open the GUI to sell drugs and related goods.
 ```
 ### Parameters
 - **player** - Define a username or nickname for your lookup.
-!!! example
+???+ example
     ```
     /dr sell Notch
     ```

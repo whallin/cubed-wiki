@@ -9,7 +9,7 @@ Accept a fight challenge from the specified gang.
 ```
 ### Parameters
 - **gang** - Define a gang name for the fight request.
-!!! example
+???+ example
     ```
     /fight accept Hells Angels
     ```
@@ -27,7 +27,7 @@ Challenge the specified gang for a fight.
 - **playeramount** - The total amount of players that can participate in the fight.
 - **money** - Amount of money to bet on the fight.
 - **gang** - Define a gang name for your fight request.
-!!! example
+???+ example
     ```
     /fight challenge 4 1000 Hells Angels
     ```
@@ -43,7 +43,7 @@ Decline a fight challenge from the specified gang.
 ```
 ### Parameters
 - **gang** - Define a gang name for the fight request.
-!!! example
+???+ example
     ```
     /fight decline Hells Angels
     ```
@@ -57,7 +57,7 @@ Join the fight your gang is taking part in.
 ```
 /fight join
 ```
-!!! example
+???+ example
     ```
     /fight join
     ```
@@ -71,7 +71,7 @@ Leave the fight your gang is taking part in.
 ```
 /fight leave
 ```
-!!! example
+???+ example
     ```
     /fight leave
     ```
@@ -87,7 +87,7 @@ Send an alliance request to the specified gang.
 ```
 ### Parameters
 - **gang** - Define a gang name for the ally request.
-!!! example
+???+ example
     ```
     /g ally Hells Angels
     ```
@@ -103,7 +103,7 @@ Creates a new gang.
 ```
 ### Parameters
 - **name** - Define a gang name.
-!!! example
+???+ example
     ```
     /g create Hells Angels
     ```
@@ -119,7 +119,7 @@ Demote the specified player to a lower rank.
 ```
 ### Parameters
 - **player** - Define a username in your gang to demote.
-!!! example
+???+ example
     ```
     /g demote Notch
     ```
@@ -135,7 +135,7 @@ Deposit money to your gang's bank account.
 ```
 ### Parameters
 - **amount** - Define an amount of money to deposit.
-!!! example
+???+ example
     ```
     /g deposit 1000
     ```
@@ -149,7 +149,7 @@ Disband your gang.
 ```
 /g disband
 ```
-!!! example
+???+ example
     ```
     /g demote Notch
     ```
@@ -163,7 +163,7 @@ Toggles friendly fire within your gang.
 ```
 /g friendlyfire
 ```
-!!! example
+???+ example
     ```
     /g friendlyfire
     ```
@@ -177,7 +177,7 @@ Lists all gang-related commands.
 ```
 /g help
 ```
-!!! example
+???+ example
     ```
     /g help
     ```
@@ -193,7 +193,7 @@ Show information and statistics about the specified gang.
 ```
 ### Parameters
 - **gang** - Define a gang name for your lookup.
-!!! example
+???+ example
     ```
     /g info Hells Angels
     ```
@@ -209,7 +209,7 @@ Invite the specified player to your gang.
 ```
 ### Parameters
 - **player** - Define a username to invite.
-!!! example
+???+ example
     ```
     /g invite Notch
     ```
@@ -225,7 +225,7 @@ Accepts the specified gang invite.
 ```
 ### Parameters
 - **gang** - Define the gang name to join.
-!!! example
+???+ example
     ```
     /g join Hells Angels
     ```
@@ -241,7 +241,7 @@ Kicks the player out of your gang.
 ```
 ### Parameters
 - **player** - Define a username to kick.
-!!! example
+???+ example
     ```
     /g kick Notch
     ```
@@ -257,7 +257,7 @@ Give the gang leadership to the specified player.
 ```
 ### Parameters
 - **player** - Define a username to give leadership to.
-!!! example
+???+ example
     ```
     /g leader Notch
     ```
@@ -271,7 +271,7 @@ Leaves your current gang.
 ```
 /g leave
 ```
-!!! example
+???+ example
     ```
     /g leave
     ```
@@ -285,7 +285,7 @@ Lists all gangs on the server.
 ```
 /g list
 ```
-!!! example
+???+ example
     ```
     /g list
     ```
@@ -301,7 +301,7 @@ Set relation with an ally to neutral.
 ```
 ### Parameters
 - **gang** - Define a gang name to become neutral with.
-!!! example
+???+ example
     ```
     /g neutral Hells Angels
     ```
@@ -317,7 +317,7 @@ View information and statistics about the specified player.
 ```
 ### Parameters
 - **player** - Define a username to lookup.
-!!! example
+???+ example
     ```
     /g playerinfo Notch
     ```
@@ -333,7 +333,7 @@ Promote the specified player to a higher rank.
 ```
 ### Parameters
 - **player** - Define a username to promote.
-!!! example
+???+ example
     ```
     /g promote Notch
     ```
@@ -347,7 +347,7 @@ View the gang leaderboards.
 ```
 /g top
 ```
-!!! example
+???+ example
     ```
     /g top
     ```
@@ -363,7 +363,7 @@ Cancel a gang invite to a player.
 ```
 ### Parameters
 - **player** - Define a username to cancel the invite to.
-!!! example
+???+ example
     ```
     /g uninvite Notch
     ```
@@ -379,7 +379,7 @@ Withdraw money to your gang's bank account.
 ```
 ### Parameters
 - **amount** - Define an amount of money to withdraw.
-!!! example
+???+ example
     ```
     /g withdraw 1000
     ```

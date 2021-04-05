@@ -10,7 +10,7 @@ Lists available weapons, excluding the ones that are hidden.
 ### Parameters
 - **all** - Lists all weapons.
 - **page** - Lists weapons by page number.
-!!! example
+???+ example
     ```
     /shot list all
     ```
