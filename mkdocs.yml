@@ -17,7 +17,11 @@ nav:
         - 'Overview': 'servers/overview.md'
         - 'Cubed Minecraft':
           - 'Apply for whitelist': 'resources/whitelist-request.md'
-          - 'Commands': 'cubedsmp/commands/essentials.md'
+          - 'Commands':
+            - 'Essentials': 'cubedsmp/commands/essentials.md'
+            - 'Gangs': 'cubedsmp/commands/gangs.md'
+            - 'Drugs': 'cubedsmp/commands/drugs.md'
+            - 'Weapons': 'cubedsmp/commands/weapons.md'
           - 'Features': 'servers/minecraft/features.md'
           - 'Frequently Asked Questions': 'cubedsmp/faq.md'
         - 'Cubed Discord':
