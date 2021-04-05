@@ -3,7 +3,7 @@
 2. Run the installer and proceed with the setup wizard.
 #### Configure Mumble
 1. Launch Mumble and make sure your screen looks like this.
-<img src="https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/servers/mumble/proximity-chat/media/configure-mumble-step1.png" width="300px" style="align:right">
+<img src="https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/servers/mumble/proximity-chat/media/configure-mumble-step1.png" width="300px" align="right">
 
 2. Click "Configure" and complete the audio wizard. Follow each step carefully to get the best possible quality in the long run. [(click to view a screenshot)](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/servers/mumble/proximity-chat/media/configure-mumble-step2.png)
     1. When you've arrived at [this](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/servers/mumble/proximity-chat/media/configure-mumble-step2-1.png) step, do **not** check "Use headphones". If checked, it will ruin the realism of the positional audio.
