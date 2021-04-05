@@ -22,7 +22,7 @@ nav:
           - 'Frequently Asked Questions': 'cubedsmp/faq.md'
         - 'Cubed Discord':
           - 'Apply for whitelist': 'resources/whitelist-request.md'
-          - 'Commands': 'servers/discord/commands.md'
+          - 'Commands': 'https://github.com/newgentdigital/kloey/wiki/Available-Commands'
           - 'Ticket Categories': 'servers/discord/ticket-categories.md'
           - 'Frequently Asked Questions': 'servers/discord/faq.md'
         - 'Cubed Mumble':
