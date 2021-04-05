@@ -185,19 +185,205 @@ Lists all gang-related commands.
     **Result:**
     
     Lists all gang-related commands.
-## /g create
-Creates a new gang.
+## /g info
+Show information and statistics about specificed gang.
 ### Syntax
 ```
-/g create <name>
+/g info <gang>
 ```
 ### Parameters
-- **name** - Define a gang name.
+- **gang** - Define a gang name for your lookup.
 !!! example
     ```
-    /g create Hells Angels
+    /g info Hells Angels
     ```
     
     **Result:**
     
-    Creates a new gang with the name "Hells Angels".
+    Shows information about the gang "Hells Angels".
+## /g invite
+Invite the specified player to your gang.
+### Syntax
+```
+/g invite <player>
+```
+### Parameters
+- **player** - Define a username to invite.
+!!! example
+    ```
+    /g invite Notch
+    ```
+    
+    **Result:**
+    
+    Invites the player "Notch" to your gang.
+## /g join
+Accepts the specified gang invite.
+### Syntax
+```
+/g join <gang>
+```
+### Parameters
+- **gang** - Define the gang name to join.
+!!! example
+    ```
+    /g join Hells Angels
+    ```
+    
+    **Result:**
+    
+    Accepts the gang invite from the gang "Hells Angels".
+## /g kick
+Kicks the player out of yout gang.
+### Syntax
+```
+/g kick <player>
+```
+### Parameters
+- **player** - Define a username to kick.
+!!! example
+    ```
+    /g kick Notch
+    ```
+    
+    **Result:**
+    
+    Kicks the member "Notch" out of your gang.
+## /g leader
+Give the gang leadership to the specified player.
+### Syntax
+```
+/g leader <player>
+```
+### Parameters
+- **player** - Define a username to give leadership to.
+!!! example
+    ```
+    /g leader Notch
+    ```
+    
+    **Result:**
+    
+    Gives the gang member "Notch" leadership of the gang.
+## /g leave
+Leaves your current gang.
+### Syntax
+```
+/g leave
+```
+!!! example
+    ```
+    /g leave
+    ```
+    
+    **Result:**
+    
+    Leaves your current gang.
+## /g list
+Lists all gangs on the server.
+### Syntax
+```
+/g list
+```
+!!! example
+    ```
+    /g list
+    ```
+    
+    **Result:**
+    
+    Lists all gangs on the server.
+## /g neutral
+Set relation with an ally to neutral.
+### Syntax
+```
+/g neutral <gang>
+```
+### Parameters
+- **gang** - Define a gang name to become neutral with.
+!!! example
+    ```
+    /g neutral Hells Angels
+    ```
+    
+    **Result:**
+    
+    Makes your gang neutral with the gang "Hells Angels".
+## /g playerinfo
+View information and statistics about the specififed player.
+### Syntax
+```
+/g playerinfo <player>
+```
+### Parameters
+- **player** - Define a username to lookup.
+!!! example
+    ```
+    /g playerinfo Notch
+    ```
+    
+    **Result:**
+    
+    Shows all information and statistics about the specified player.
+## /g promote
+Promote the specified player to a higher rank.
+### Syntax
+```
+/g promote <player>
+```
+### Parameters
+- **player** - Define a username to promote.
+!!! example
+    ```
+    /g promote Notch
+    ```
+    
+    **Result:**
+    
+    Promotes the gang member "Notch" to a higher rank.
+## /g top
+View the gang leaderboards.
+### Syntax
+```
+/g top
+```
+!!! example
+    ```
+    /g top
+    ```
+    
+    **Result:**
+    
+    View the gang leaderboards.
+## /g uninvite
+Cancel a gang invite to a player.
+### Syntax
+```
+/g uninvite <player>
+```
+### Parameters
+- **player** - Define a username to cancel the invite to.
+!!! example
+    ```
+    /g uninvite Notch
+    ```
+    
+    **Result:**
+    
+    Cancels the outgoing gang invite to the player "Notch".
+## /g withdraw
+Withdraw money to your gang's bank account.
+### Syntax
+```
+/g withdraw <amount>
+```
+### Parameters
+- **amount** - Define an amount of money to withdraw.
+!!! example
+    ```
+    /g withdraw 1000
+    ```
+    
+    **Result:**
+    
+    Withdraws $1000 to your gang's bank account.
