@@ -84,3 +84,4 @@ plugins:
       prebuild_index: true
 markdown_extensions:
   - admonition
+  - attr_list
