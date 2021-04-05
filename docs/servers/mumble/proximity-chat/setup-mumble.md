@@ -1,5 +1,5 @@
 ### Install Mumble
-1. Visit [https://mumble.info/downloads/](https://mumble.info/downloads/) and download the right installer for your system.
+1. Visit [https://www.mumble.info/downloads/](https://www.mumble.info/downloads/) and download the right installer for your system.
 2. Run the installer and proceed with the setup wizard.
 ### Configure Mumble
 1. Launch Mumble and make sure your screen looks like [this](https://raw.githubusercontent.com/cubed-mc/cubed-wiki/main/docs/servers/mumble/proximity-chat/media/configure-mumble-step1.png).
