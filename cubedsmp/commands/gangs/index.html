@@ -1,0 +1,3453 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Cubed is a private Minecraft SMP server with an invite-only community. Show good interest and you might just receive an invite.">
+      
+      
+      
+        <meta name="author" content="Cubed">
+      
+      
+        <link rel="canonical" href="https://wiki.cubed-mc.com/cubedsmp/commands/gangs/">
+      
+      <link rel="icon" href="../../../images/logo.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.4">
+    
+    
+      
+        <title>Gangs - Cubed Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.bde7dde4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffffff">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,400i,700%7CSource+Code+Pro&display=fallback">
+        <style>:root{--md-text-font-family:"Inter";--md-code-font-family:"Source Code Pro"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="white" data-md-color-accent="orange">
+  
+    
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#fight-accept" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://wiki.cubed-mc.com" title="Cubed Documentation" class="md-header__button md-logo" aria-label="Cubed Documentation" data-md-component="logo">
+      
+  <img src="../../../images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cubed Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Gangs
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/whallin/cubed-wiki/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    whallin/cubed-wiki
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../about/overview/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../servers/overview/" class="md-tabs__link">
+        Servers
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../minecraft-about/" class="md-tabs__link md-tabs__link--active">
+        CubedSMP
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../resources/whitelist-request/" class="md-tabs__link">
+        Resources
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../credits/" class="md-tabs__link">
+      Credits
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../support/" class="md-tabs__link">
+      Support
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://wiki.cubed-mc.com" title="Cubed Documentation" class="md-nav__button md-logo" aria-label="Cubed Documentation" data-md-component="logo">
+      
+  <img src="../../../images/logo.png" alt="logo">
+
+    </a>
+    Cubed Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/whallin/cubed-wiki/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    whallin/cubed-wiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        About
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../minecraft-about/" class="md-nav__link">
+        What is: Cubed Minecraft
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/discord-about/" class="md-nav__link">
+        What is: Cubed Discord
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/mumble-about/" class="md-nav__link">
+        What is: Cubed Mumble
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        Servers
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Servers" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Servers
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../servers/overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      <label class="md-nav__link" for="__nav_3_2">
+        Cubed Minecraft
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Cubed Minecraft" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Cubed Minecraft
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/whitelist-request/" class="md-nav__link">
+        Apply for whitelist
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_2" type="checkbox" id="__nav_3_2_2" >
+      
+      <label class="md-nav__link" for="__nav_3_2_2">
+        Commands
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Commands" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Commands
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../essentials/" class="md-nav__link">
+        Essentials
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Gangs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Gangs
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fight-accept" class="md-nav__link">
+    /fight accept
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight accept">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fight-challenge" class="md-nav__link">
+    /fight challenge
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight challenge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_1" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_1" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fight-decline" class="md-nav__link">
+    /fight decline
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight decline">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_2" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_2" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fight-join" class="md-nav__link">
+    /fight join
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight join">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_3" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fight-leave" class="md-nav__link">
+    /fight leave
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight leave">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_4" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-ally" class="md-nav__link">
+    /g ally
+  </a>
+  
+    <nav class="md-nav" aria-label="/g ally">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_5" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_3" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-create" class="md-nav__link">
+    /g create
+  </a>
+  
+    <nav class="md-nav" aria-label="/g create">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_6" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_4" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-demote" class="md-nav__link">
+    /g demote
+  </a>
+  
+    <nav class="md-nav" aria-label="/g demote">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_7" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_5" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-deposit" class="md-nav__link">
+    /g deposit
+  </a>
+  
+    <nav class="md-nav" aria-label="/g deposit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_8" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_6" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-disband" class="md-nav__link">
+    /g disband
+  </a>
+  
+    <nav class="md-nav" aria-label="/g disband">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_9" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-friendlyfire" class="md-nav__link">
+    /g friendlyfire
+  </a>
+  
+    <nav class="md-nav" aria-label="/g friendlyfire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_10" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-help" class="md-nav__link">
+    /g help
+  </a>
+  
+    <nav class="md-nav" aria-label="/g help">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_11" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-info" class="md-nav__link">
+    /g info
+  </a>
+  
+    <nav class="md-nav" aria-label="/g info">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_12" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_7" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-invite" class="md-nav__link">
+    /g invite
+  </a>
+  
+    <nav class="md-nav" aria-label="/g invite">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_13" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_8" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-join" class="md-nav__link">
+    /g join
+  </a>
+  
+    <nav class="md-nav" aria-label="/g join">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_14" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_9" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-kick" class="md-nav__link">
+    /g kick
+  </a>
+  
+    <nav class="md-nav" aria-label="/g kick">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_15" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_10" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-leader" class="md-nav__link">
+    /g leader
+  </a>
+  
+    <nav class="md-nav" aria-label="/g leader">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_16" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_11" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-leave" class="md-nav__link">
+    /g leave
+  </a>
+  
+    <nav class="md-nav" aria-label="/g leave">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_17" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-list" class="md-nav__link">
+    /g list
+  </a>
+  
+    <nav class="md-nav" aria-label="/g list">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_18" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-neutral" class="md-nav__link">
+    /g neutral
+  </a>
+  
+    <nav class="md-nav" aria-label="/g neutral">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_19" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_12" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-playerinfo" class="md-nav__link">
+    /g playerinfo
+  </a>
+  
+    <nav class="md-nav" aria-label="/g playerinfo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_20" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_13" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-promote" class="md-nav__link">
+    /g promote
+  </a>
+  
+    <nav class="md-nav" aria-label="/g promote">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_21" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_14" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-top" class="md-nav__link">
+    /g top
+  </a>
+  
+    <nav class="md-nav" aria-label="/g top">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_22" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-uninvite" class="md-nav__link">
+    /g uninvite
+  </a>
+  
+    <nav class="md-nav" aria-label="/g uninvite">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_23" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_15" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-withdraw" class="md-nav__link">
+    /g withdraw
+  </a>
+  
+    <nav class="md-nav" aria-label="/g withdraw">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_24" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_16" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drugs/" class="md-nav__link">
+        Drugs
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../weapons/" class="md-nav__link">
+        Weapons
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../servers/minecraft/features/" class="md-nav__link">
+        Features
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        Frequently Asked Questions
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      <label class="md-nav__link" for="__nav_3_3">
+        Cubed Discord
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Cubed Discord" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Cubed Discord
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/whitelist-request/" class="md-nav__link">
+        Apply for whitelist
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/newgentdigital/kloey/wiki/Available-Commands" class="md-nav__link">
+        Commands
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../servers/discord/ticket-categories/" class="md-nav__link">
+        Ticket Categories
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../servers/discord/faq/" class="md-nav__link">
+        Frequently Asked Questions
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4" type="checkbox" id="__nav_3_4" >
+      
+      <label class="md-nav__link" for="__nav_3_4">
+        Cubed Mumble
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Cubed Mumble" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          Cubed Mumble
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../servers/mumble/faq/" class="md-nav__link">
+        Frequently Asked Questions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4_2" type="checkbox" id="__nav_3_4_2" >
+      
+      <label class="md-nav__link" for="__nav_3_4_2">
+        Proximity Chat
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Proximity Chat" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Proximity Chat
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../servers/mumble/proximity-chat/overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../servers/mumble/proximity-chat/setup-mumble/" class="md-nav__link">
+        Setup Mumble
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../servers/mumble/proximity-chat/enable-proximity-ingame/" class="md-nav__link">
+        Enable Proximity In-game
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../servers/mumble/proximity-chat/troubleshooting/" class="md-nav__link">
+        Troubleshooting
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      <label class="md-nav__link" for="__nav_4">
+        CubedSMP
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="CubedSMP" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          CubedSMP
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../minecraft-about/" class="md-nav__link">
+        What is: Cubed Minecraft
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/whitelist-request/" class="md-nav__link">
+        Apply for whitelist
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" checked>
+      
+      <label class="md-nav__link" for="__nav_4_3">
+        Commands
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Commands" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Commands
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../essentials/" class="md-nav__link">
+        Essentials
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Gangs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Gangs
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fight-accept" class="md-nav__link">
+    /fight accept
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight accept">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fight-challenge" class="md-nav__link">
+    /fight challenge
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight challenge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_1" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_1" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fight-decline" class="md-nav__link">
+    /fight decline
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight decline">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_2" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_2" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fight-join" class="md-nav__link">
+    /fight join
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight join">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_3" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fight-leave" class="md-nav__link">
+    /fight leave
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight leave">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_4" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-ally" class="md-nav__link">
+    /g ally
+  </a>
+  
+    <nav class="md-nav" aria-label="/g ally">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_5" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_3" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-create" class="md-nav__link">
+    /g create
+  </a>
+  
+    <nav class="md-nav" aria-label="/g create">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_6" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_4" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-demote" class="md-nav__link">
+    /g demote
+  </a>
+  
+    <nav class="md-nav" aria-label="/g demote">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_7" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_5" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-deposit" class="md-nav__link">
+    /g deposit
+  </a>
+  
+    <nav class="md-nav" aria-label="/g deposit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_8" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_6" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-disband" class="md-nav__link">
+    /g disband
+  </a>
+  
+    <nav class="md-nav" aria-label="/g disband">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_9" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-friendlyfire" class="md-nav__link">
+    /g friendlyfire
+  </a>
+  
+    <nav class="md-nav" aria-label="/g friendlyfire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_10" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-help" class="md-nav__link">
+    /g help
+  </a>
+  
+    <nav class="md-nav" aria-label="/g help">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_11" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-info" class="md-nav__link">
+    /g info
+  </a>
+  
+    <nav class="md-nav" aria-label="/g info">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_12" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_7" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-invite" class="md-nav__link">
+    /g invite
+  </a>
+  
+    <nav class="md-nav" aria-label="/g invite">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_13" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_8" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-join" class="md-nav__link">
+    /g join
+  </a>
+  
+    <nav class="md-nav" aria-label="/g join">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_14" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_9" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-kick" class="md-nav__link">
+    /g kick
+  </a>
+  
+    <nav class="md-nav" aria-label="/g kick">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_15" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_10" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-leader" class="md-nav__link">
+    /g leader
+  </a>
+  
+    <nav class="md-nav" aria-label="/g leader">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_16" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_11" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-leave" class="md-nav__link">
+    /g leave
+  </a>
+  
+    <nav class="md-nav" aria-label="/g leave">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_17" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-list" class="md-nav__link">
+    /g list
+  </a>
+  
+    <nav class="md-nav" aria-label="/g list">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_18" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-neutral" class="md-nav__link">
+    /g neutral
+  </a>
+  
+    <nav class="md-nav" aria-label="/g neutral">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_19" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_12" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-playerinfo" class="md-nav__link">
+    /g playerinfo
+  </a>
+  
+    <nav class="md-nav" aria-label="/g playerinfo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_20" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_13" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-promote" class="md-nav__link">
+    /g promote
+  </a>
+  
+    <nav class="md-nav" aria-label="/g promote">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_21" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_14" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-top" class="md-nav__link">
+    /g top
+  </a>
+  
+    <nav class="md-nav" aria-label="/g top">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_22" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-uninvite" class="md-nav__link">
+    /g uninvite
+  </a>
+  
+    <nav class="md-nav" aria-label="/g uninvite">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_23" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_15" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-withdraw" class="md-nav__link">
+    /g withdraw
+  </a>
+  
+    <nav class="md-nav" aria-label="/g withdraw">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_24" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_16" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drugs/" class="md-nav__link">
+        Drugs
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../weapons/" class="md-nav__link">
+        Weapons
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" >
+      
+      <label class="md-nav__link" for="__nav_4_4">
+        Gameplay
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Gameplay" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Gameplay
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gameplay/drugs/" class="md-nav__link">
+        Drugs
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gameplay/weapons/" class="md-nav__link">
+        Weapons
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        Frequently Asked Questions
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        Resources
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Resources" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/whitelist-request/" class="md-nav__link">
+        Whitelist Request
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/apply-staff/" class="md-nav__link">
+        Staff Applications
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/appeal-punishment/" class="md-nav__link">
+        Appeal a Punishment
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../credits/" class="md-nav__link">
+        Credits
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../support/" class="md-nav__link">
+        Support
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fight-accept" class="md-nav__link">
+    /fight accept
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight accept">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fight-challenge" class="md-nav__link">
+    /fight challenge
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight challenge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_1" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_1" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fight-decline" class="md-nav__link">
+    /fight decline
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight decline">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_2" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_2" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fight-join" class="md-nav__link">
+    /fight join
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight join">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_3" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fight-leave" class="md-nav__link">
+    /fight leave
+  </a>
+  
+    <nav class="md-nav" aria-label="/fight leave">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_4" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-ally" class="md-nav__link">
+    /g ally
+  </a>
+  
+    <nav class="md-nav" aria-label="/g ally">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_5" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_3" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-create" class="md-nav__link">
+    /g create
+  </a>
+  
+    <nav class="md-nav" aria-label="/g create">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_6" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_4" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-demote" class="md-nav__link">
+    /g demote
+  </a>
+  
+    <nav class="md-nav" aria-label="/g demote">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_7" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_5" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-deposit" class="md-nav__link">
+    /g deposit
+  </a>
+  
+    <nav class="md-nav" aria-label="/g deposit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_8" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_6" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-disband" class="md-nav__link">
+    /g disband
+  </a>
+  
+    <nav class="md-nav" aria-label="/g disband">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_9" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-friendlyfire" class="md-nav__link">
+    /g friendlyfire
+  </a>
+  
+    <nav class="md-nav" aria-label="/g friendlyfire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_10" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-help" class="md-nav__link">
+    /g help
+  </a>
+  
+    <nav class="md-nav" aria-label="/g help">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_11" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-info" class="md-nav__link">
+    /g info
+  </a>
+  
+    <nav class="md-nav" aria-label="/g info">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_12" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_7" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-invite" class="md-nav__link">
+    /g invite
+  </a>
+  
+    <nav class="md-nav" aria-label="/g invite">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_13" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_8" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-join" class="md-nav__link">
+    /g join
+  </a>
+  
+    <nav class="md-nav" aria-label="/g join">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_14" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_9" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-kick" class="md-nav__link">
+    /g kick
+  </a>
+  
+    <nav class="md-nav" aria-label="/g kick">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_15" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_10" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-leader" class="md-nav__link">
+    /g leader
+  </a>
+  
+    <nav class="md-nav" aria-label="/g leader">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_16" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_11" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-leave" class="md-nav__link">
+    /g leave
+  </a>
+  
+    <nav class="md-nav" aria-label="/g leave">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_17" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-list" class="md-nav__link">
+    /g list
+  </a>
+  
+    <nav class="md-nav" aria-label="/g list">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_18" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-neutral" class="md-nav__link">
+    /g neutral
+  </a>
+  
+    <nav class="md-nav" aria-label="/g neutral">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_19" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_12" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-playerinfo" class="md-nav__link">
+    /g playerinfo
+  </a>
+  
+    <nav class="md-nav" aria-label="/g playerinfo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_20" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_13" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-promote" class="md-nav__link">
+    /g promote
+  </a>
+  
+    <nav class="md-nav" aria-label="/g promote">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_21" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_14" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-top" class="md-nav__link">
+    /g top
+  </a>
+  
+    <nav class="md-nav" aria-label="/g top">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_22" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-uninvite" class="md-nav__link">
+    /g uninvite
+  </a>
+  
+    <nav class="md-nav" aria-label="/g uninvite">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_23" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_15" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-withdraw" class="md-nav__link">
+    /g withdraw
+  </a>
+  
+    <nav class="md-nav" aria-label="/g withdraw">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_24" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters_16" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/whallin/cubed-wiki/edit/master/docs/cubedsmp/commands/gangs.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  <h1>Gangs</h1>
+                
+                <p>To properly play and utilize the features available on our survival multiplayer server, you should be using the commands we offer you.
+We have listed all the commands accessible by any normal user on our survival multiplayer server.
+For our staff team, please refer to the handbook for your unique commands list.</p>
+<h2 id="fight-accept">/fight accept</h2>
+<p>Accept a fight challenge from the specified gang.</p>
+<h3 id="syntax">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/fight accept &lt;gang&gt;
+</code></pre></div>
+<h3 id="parameters">Parameters</h3>
+<ul>
+<li><strong>gang</strong> - Define a gang name for the fight request.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/fight accept Hells Angels
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Accepts the fight challenge request from the gang "Hells Angels".</p>
+</details>
+<h2 id="fight-challenge">/fight challenge</h2>
+<p>Challenge the specified gang for a fight.</p>
+<h3 id="syntax_1">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/fight challenge &lt;playeramount&gt; &lt;money&gt; &lt;gang&gt;
+</code></pre></div>
+<h3 id="parameters_1">Parameters</h3>
+<ul>
+<li><strong>playeramount</strong> - The total amount of players that can participate in the fight.</li>
+<li><strong>money</strong> - Amount of money to bet on the fight.</li>
+<li><strong>gang</strong> - Define a gang name for your fight request.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/fight challenge 4 1000 Hells Angels
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Sends a 4v4 fight request with a $1000 bet to the gang "Hells Angels".</p>
+</details>
+<h2 id="fight-decline">/fight decline</h2>
+<p>Decline a fight challenge from the specified gang.</p>
+<h3 id="syntax_2">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/fight decline &lt;gang&gt;
+</code></pre></div>
+<h3 id="parameters_2">Parameters</h3>
+<ul>
+<li><strong>gang</strong> - Define a gang name for the fight request.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/fight decline Hells Angels
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Declines the fight challenge request from the gang "Hells Angels".</p>
+</details>
+<h2 id="fight-join">/fight join</h2>
+<p>Join the fight your gang is taking part in.</p>
+<h3 id="syntax_3">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/fight join
+</code></pre></div>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/fight join
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Joins the fight your gang is taking part in.</p>
+</details>
+<h2 id="fight-leave">/fight leave</h2>
+<p>Leave the fight your gang is taking part in.</p>
+<h3 id="syntax_4">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/fight leave
+</code></pre></div>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/fight leave
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Leaves the fight your gang is taking part in.</p>
+</details>
+<h2 id="g-ally">/g ally</h2>
+<p>Send an alliance request to the specified gang.</p>
+<h3 id="syntax_5">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g ally &lt;gang&gt;
+</code></pre></div>
+<h3 id="parameters_3">Parameters</h3>
+<ul>
+<li><strong>gang</strong> - Define a gang name for the ally request.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g ally Hells Angels
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Sends an alliance request to the gang "Hells Angels".</p>
+</details>
+<h2 id="g-create">/g create</h2>
+<p>Creates a new gang.</p>
+<h3 id="syntax_6">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g create &lt;name&gt;
+</code></pre></div>
+<h3 id="parameters_4">Parameters</h3>
+<ul>
+<li><strong>name</strong> - Define a gang name.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g create Hells Angels
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Creates a new gang with the name "Hells Angels".</p>
+</details>
+<h2 id="g-demote">/g demote</h2>
+<p>Demote the specified player to a lower rank.</p>
+<h3 id="syntax_7">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g demote &lt;player&gt;
+</code></pre></div>
+<h3 id="parameters_5">Parameters</h3>
+<ul>
+<li><strong>player</strong> - Define a username in your gang to demote.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g demote Notch
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Demotes the gang member "Notch" to a lower rank.</p>
+</details>
+<h2 id="g-deposit">/g deposit</h2>
+<p>Deposit money to your gang's bank account.</p>
+<h3 id="syntax_8">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g deposit &lt;amount&gt;
+</code></pre></div>
+<h3 id="parameters_6">Parameters</h3>
+<ul>
+<li><strong>amount</strong> - Define an amount of money to deposit.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g deposit 1000
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Deposits $1000 to your gang's bank account.</p>
+</details>
+<h2 id="g-disband">/g disband</h2>
+<p>Disband your gang.</p>
+<h3 id="syntax_9">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g disband
+</code></pre></div>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g demote Notch
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Disbands your currently owned gang.</p>
+</details>
+<h2 id="g-friendlyfire">/g friendlyfire</h2>
+<p>Toggles friendly fire within your gang.</p>
+<h3 id="syntax_10">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g friendlyfire
+</code></pre></div>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g friendlyfire
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Toggles friendly fire within your gang.</p>
+</details>
+<h2 id="g-help">/g help</h2>
+<p>Lists all gang-related commands.</p>
+<h3 id="syntax_11">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g help
+</code></pre></div>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g help
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Lists all gang-related commands.</p>
+</details>
+<h2 id="g-info">/g info</h2>
+<p>Show information and statistics about the specified gang.</p>
+<h3 id="syntax_12">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g info &lt;gang&gt;
+</code></pre></div>
+<h3 id="parameters_7">Parameters</h3>
+<ul>
+<li><strong>gang</strong> - Define a gang name for your lookup.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g info Hells Angels
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Shows information about the gang "Hells Angels".</p>
+</details>
+<h2 id="g-invite">/g invite</h2>
+<p>Invite the specified player to your gang.</p>
+<h3 id="syntax_13">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g invite &lt;player&gt;
+</code></pre></div>
+<h3 id="parameters_8">Parameters</h3>
+<ul>
+<li><strong>player</strong> - Define a username to invite.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g invite Notch
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Invites the player "Notch" to your gang.</p>
+</details>
+<h2 id="g-join">/g join</h2>
+<p>Accepts the specified gang invite.</p>
+<h3 id="syntax_14">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g join &lt;gang&gt;
+</code></pre></div>
+<h3 id="parameters_9">Parameters</h3>
+<ul>
+<li><strong>gang</strong> - Define the gang name to join.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g join Hells Angels
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Accepts the gang invite from the gang "Hells Angels".</p>
+</details>
+<h2 id="g-kick">/g kick</h2>
+<p>Kicks the player out of your gang.</p>
+<h3 id="syntax_15">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g kick &lt;player&gt;
+</code></pre></div>
+<h3 id="parameters_10">Parameters</h3>
+<ul>
+<li><strong>player</strong> - Define a username to kick.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g kick Notch
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Kicks the member "Notch" out of your gang.</p>
+</details>
+<h2 id="g-leader">/g leader</h2>
+<p>Give the gang leadership to the specified player.</p>
+<h3 id="syntax_16">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g leader &lt;player&gt;
+</code></pre></div>
+<h3 id="parameters_11">Parameters</h3>
+<ul>
+<li><strong>player</strong> - Define a username to give leadership to.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g leader Notch
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Gives the gang member "Notch" leadership of the gang.</p>
+</details>
+<h2 id="g-leave">/g leave</h2>
+<p>Leaves your current gang.</p>
+<h3 id="syntax_17">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g leave
+</code></pre></div>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g leave
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Leaves your current gang.</p>
+</details>
+<h2 id="g-list">/g list</h2>
+<p>Lists all gangs on the server.</p>
+<h3 id="syntax_18">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g list
+</code></pre></div>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g list
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Lists all gangs on the server.</p>
+</details>
+<h2 id="g-neutral">/g neutral</h2>
+<p>Set relation with an ally to neutral.</p>
+<h3 id="syntax_19">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g neutral &lt;gang&gt;
+</code></pre></div>
+<h3 id="parameters_12">Parameters</h3>
+<ul>
+<li><strong>gang</strong> - Define a gang name to become neutral with.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g neutral Hells Angels
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Makes your gang neutral with the gang "Hells Angels".</p>
+</details>
+<h2 id="g-playerinfo">/g playerinfo</h2>
+<p>View information and statistics about the specified player.</p>
+<h3 id="syntax_20">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g playerinfo &lt;player&gt;
+</code></pre></div>
+<h3 id="parameters_13">Parameters</h3>
+<ul>
+<li><strong>player</strong> - Define a username to lookup.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g playerinfo Notch
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Shows all information and statistics about the specified player.</p>
+</details>
+<h2 id="g-promote">/g promote</h2>
+<p>Promote the specified player to a higher rank.</p>
+<h3 id="syntax_21">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g promote &lt;player&gt;
+</code></pre></div>
+<h3 id="parameters_14">Parameters</h3>
+<ul>
+<li><strong>player</strong> - Define a username to promote.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g promote Notch
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Promotes the gang member "Notch" to a higher rank.</p>
+</details>
+<h2 id="g-top">/g top</h2>
+<p>View the gang leaderboards.</p>
+<h3 id="syntax_22">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g top
+</code></pre></div>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g top
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>View the gang leaderboards.</p>
+</details>
+<h2 id="g-uninvite">/g uninvite</h2>
+<p>Cancel a gang invite to a player.</p>
+<h3 id="syntax_23">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g uninvite &lt;player&gt;
+</code></pre></div>
+<h3 id="parameters_15">Parameters</h3>
+<ul>
+<li><strong>player</strong> - Define a username to cancel the invite to.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g uninvite Notch
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Cancels the outgoing gang invite to the player "Notch".</p>
+</details>
+<h2 id="g-withdraw">/g withdraw</h2>
+<p>Withdraw money to your gang's bank account.</p>
+<h3 id="syntax_24">Syntax</h3>
+<div class="highlight"><pre><span></span><code>/g withdraw &lt;amount&gt;
+</code></pre></div>
+<h3 id="parameters_16">Parameters</h3>
+<ul>
+<li><strong>amount</strong> - Define an amount of money to withdraw.</li>
+</ul>
+<details class="example" open="open"><summary>Example</summary><div class="highlight"><pre><span></span><code>/g withdraw 1000
+</code></pre></div>
+<p><strong>Result:</strong></p>
+<p>Withdraws $1000 to your gang's bank account.</p>
+</details>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../essentials/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Essentials
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../drugs/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Drugs
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            © 2021 Cubed. All rights reserved.
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://cubed-mc.com/" target="_blank" rel="noopener" title="cubed-mc.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://discord.cubed-mc.com/" target="_blank" rel="noopener" title="discord.cubed-mc.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://github.com/cubed-mc/" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.4fa0e4ee.min.js", "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.1d3bfcf1.min.js"></script>
+      
+    
+  </body>
+</html>
