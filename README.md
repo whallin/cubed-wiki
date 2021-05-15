@@ -10,7 +10,7 @@
 </p>
 
 <!-- ABOUT -->
-## 📚 cubed-wiki
+# 📚 cubed-wiki
 A knowledge base running MkDocs, built for the private Minecraft SMP community Cubed.
 
 <!-- ACCESS -->
